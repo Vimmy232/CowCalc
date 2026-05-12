@@ -1,0 +1,30 @@
+{
+  "Province Base Production": {
+    "headers": [
+      "Province Type",
+      "Base Resource (100% Morale)",
+      "Base Manpower (100% Morale)",
+      "Scaling Mechanic"
+    ],
+    "rows": [
+      [
+        "Core City",
+        "6000.0",
+        "600.0",
+        "Proportional to Morale (e.g. 70% resource at 70% morale)"
+      ],
+      [
+        "Core Resource Rural",
+        "1500.0",
+        "150.0",
+        "Proportional to Morale"
+      ],
+      [
+        "Normal Core Rural",
+        "0.0",
+        "450.0",
+        "Proportional to Morale"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "map_id": "10242",
+    "title": "Swift Strike",
+    "headers": [
+        "PlayerID",
+        "Nation",
+        "Faction",
+        "Money",
+        "Manpower",
+        "Food",
+        "Steel",
+        "Fuel",
+        "Money_Max",
+        "Manpower_Max",
+        "Food_Max",
+        "Steel_Max",
+        "Fuel_Max"
+    ],
+    "rows": []
+}

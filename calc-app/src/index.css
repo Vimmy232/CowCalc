@@ -1,0 +1,25 @@
+html {
+  min-height: 100%;
+  background-color: #0a0a10;
+}
+
+html[data-theme="light"] {
+  background-color: #e8eaf2;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: inherit;
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  text-align: initial;
+  border-inline: 0;
+  min-height: 100vh;
+  display: block;
+  box-sizing: border-box;
+}
