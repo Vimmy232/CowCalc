@@ -10,6 +10,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "research:daily-costs": "node scripts/research-costs-to-json.mjs"
+    "research:daily-costs": "node scripts/research-costs-to-json.mjs",
+    "test": "vitest run"
   },
   "dependencies": {
     "react": "^19.2.4",

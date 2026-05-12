@@ -363,6 +363,30 @@ export function getUnitProductionPreview(block, unitItem, days, unlockDay = 1) {
   const completionHours = productionRatePerHour > 0 ? requestedCount / productionRatePerHour : 0;
   const unitsPerDay = productionRatePerHour * 24;
 
+  // Greedy First Calculation
+  const latestStartHours = (productionDay * 24) - completionHours;
+  const latestStartDay = Math.max(unlockAtDay, latestStartHours / 24);
+  const missedUnits = requestedCount - cappedUnits;
+
+  // Calculate RSS short for the missed units (production cost proportional to what was missed)
+  let missedRss = null;
+  if (missedUnits > 0) {
+    const costPerUnit = { M: 0, P: 0, F: 0, S: 0, U: 0 };
+    if (unitObj) {
+      ['Money', 'Manpower', 'Food', 'Steel', 'Fuel'].forEach(r => {
+        const key = r.charAt(0);
+        costPerUnit[key] = parseFloat(unitObj[r] || 0);
+      });
+    }
+    missedRss = {
+      M: costPerUnit.M * missedUnits,
+      P: costPerUnit.P * missedUnits,
+      F: costPerUnit.F * missedUnits,
+      S: costPerUnit.S * missedUnits,
+      U: costPerUnit.U * missedUnits,
+    };
+  }
+
   return {
     available: true,
     buildingName,
@@ -375,9 +399,13 @@ export function getUnitProductionPreview(block, unitItem, days, unlockDay = 1) {
     maxUnits: maxUnitsByDay,
     cappedUnits,
     completionHours,
-    unitsPerDay,
     productionDayCount: productionDay,
     unlockDay: unlockAtDay,
+    unitsPerDay,
+    latestStartHours,
+    latestStartDay,
+    missedUnits,
+    missedRss,
   };
 }
 

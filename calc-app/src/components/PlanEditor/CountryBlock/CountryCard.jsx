@@ -1,141 +1,28 @@
-import React, { useState, useEffect, useMemo, useCallback } from 'react';
-import './App.css';
+import React, { useState, useEffect } from "react";
 import {
-  LS_KEY,
-  buildDiscordPlanExport,
-  loadSaved,
-  parseSchemaRows,
-  parseMapPayload,
-} from './lib/cowcalcCore';
-import { calculateGlobalFeasibility } from './lib/feasibility';
-import { customSmoothScroll } from './utils';
+  FactionFiles,
+  NO_UPGRADE_UNITS,
+  UNIT_ABBREVIATIONS,
+  EXCLUDED_ITEMS,
+  BUILDING_ORDER,
+  sortByOrder,
+  sortByUnitOrder,
+  parseIntSafe,
+  getUpgradeCostTier,
+  getUpgradeCostSource,
+  sortCartItems,
+  formatWhole,
+  formatDecimal,
+  createCostBucket,
+  addCost,
+  addBuckets,
+  getCurrentTimelineDay,
+  getResearchUnlockDay,
+  applyResearchPrerequisites,
+  getUnitProductionPreview
+} from "../../../lib/cowcalcCore";
 
-import { ScrollTopButton } from './components/Common/ScrollTopButton';
-import { MemoDiscordExportModal } from './components/Toolbar/DiscordExportModal';
-import { Sidebar } from './components/Layout/Sidebar';
-import { PlanEditor } from './components/PlanEditor/PlanEditor';
-
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('cowcalc_theme', theme);
-  }, [theme]);
-
-  return (
-    <button
-      className="toolbar-btn toolbar-btn-theme"
-      onClick={() => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))}
-      title="Toggle light/dark mode"
-      aria-label="Toggle theme"
-    >
-      {theme === 'dark' ? (
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style={{display:'block'}}>
-          <circle cx="7" cy="7" r="3" stroke="currentColor" strokeWidth="1.2"/>
-          <path d="M7 1v1.5M7 11.5V13M1 7h1.5M11.5 7H13M2.93 2.93l1.06 1.06M10.01 10.01l1.06 1.06M2.93 11.07l1.06-1.06M10.01 3.99l1.06-1.06" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-        </svg>
-      ) : (
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style={{display:'block'}}>
-          <path d="M12 7.93A5 5 0 016.07 2a5 5 0 100 10 5 5 0 005.93-4.07z" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-        </svg>
-      )}
-    </button>
-  );
-}
-
-function ScrollTopButton() {
-  const [visible, setVisible] = useState(false);
-  const frameRef = React.useRef(0);
-
-  useEffect(() => {
-    const updateVisibility = () => {
-      frameRef.current = 0;
-      const nextVisible = window.scrollY > 280;
-      setVisible((currentVisible) => (currentVisible === nextVisible ? currentVisible : nextVisible));
-    };
-
-    const handleScroll = () => {
-      if (frameRef.current) return;
-      frameRef.current = window.requestAnimationFrame(updateVisibility);
-    };
-
-    handleScroll();
-    window.addEventListener('scroll', handleScroll, { passive: true });
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      if (frameRef.current) {
-        window.cancelAnimationFrame(frameRef.current);
-      }
-    };
-  }, []);
-
-  if (!visible) return null;
-
-  return (
-    <button
-      className="scroll-top-btn"
-      onClick={() => customSmoothScroll(0, 950)}
-      aria-label="Move to top"
-      title="Move to top"
-    >
-      ↑ Top
-    </button>
-  );
-}
-
-// Memoized Discord Export Modal - only re-renders when export data changes
-function DiscordExportModal({ isOpen, discordExport, onClose, onCopy }) {
-  if (!isOpen) return null;
-  
-  return (
-    <div className="discord-export-overlay" role="dialog" aria-modal="true" aria-labelledby="discord-export-title" onClick={onClose}>
-      <div className="discord-export-panel glass-panel" onClick={event => event.stopPropagation()}>
-        <div className="discord-export-header">
-          <div>
-            <h2 id="discord-export-title" style={{ marginBottom: '0.35rem' }}>
-              {discordExport ? discordExport.title : 'Preparing Discord export...'}
-            </h2>
-            <div className="cart-item-meta">
-              {discordExport ? 'Combined export for all countries.' : 'Building export data from the current plan.'}
-            </div>
-          </div>
-          <button className="toolbar-btn toolbar-btn-danger discord-export-close" onClick={onClose}>Close</button>
-        </div>
-
-        {!discordExport ? (
-          <div className="discord-export-warning">
-            Preparing export data. If this takes a moment, the plan is large.
-          </div>
-        ) : discordExport.warning ? (
-          <div className="discord-export-warning">
-            {discordExport.warning}
-          </div>
-        ) : null}
-
-        {discordExport && (
-          <div className="discord-export-parts">
-            {discordExport.chunks.map((chunk, index) => (
-              <div key={index} className="discord-export-part">
-                <div className="discord-export-part-header">
-                  <span>{discordExport.chunks.length > 1 ? `Combined Export (${formatWhole(index + 1)}/${formatWhole(discordExport.chunks.length)})` : 'Combined Export'}</span>
-                  <div className="discord-export-part-meta">
-                    {formatWhole(chunk.length)} / {formatWhole(discordExport.messageLimit)} chars
-                  </div>
-                  <button className="toolbar-btn toolbar-btn-discord discord-copy-btn" onClick={() => onCopy(chunk)}>Copy</button>
-                </div>
-                <textarea className="discord-export-textarea" readOnly value={chunk} />
-              </div>
-            ))}
-          </div>
-        )}
-      </div>
-    </div>
-  );
-}
-
-const MemoDiscordExportModal = React.memo(DiscordExportModal);
-const MemoCountryCard = React.memo(CountryCard);
-
-// --- Country Block Component ---
+export
 function CountryCard({ block, blockIndex, updateBlock, removeBlock, globalData, mapData, days, isNew = false, cardRef = null }) {
   const [selectedType, setSelectedType] = useState('Unit');
   const [selectedItemName, setSelectedItemName] = useState('');
@@ -157,7 +44,7 @@ function CountryCard({ block, blockIndex, updateBlock, removeBlock, globalData, 
   const countryObj = mapData && block.selectedCountryIdx >= 0 ? mapData.parsedRows[block.selectedCountryIdx] : null;
   const countryFaction = countryObj?.Faction || null;
 
-  const requiresBuffTarget = selectedType === 'Building' && 
+  const requiresBuffTarget = selectedType === 'Building' &&
     (selectedItemName.includes('Industry') || selectedItemName.includes('Recruiting Station'));
   const currentTimelineDay = getCurrentTimelineDay(days);
   const getUnitTierUnlockDay = (unitName, tier) => {
@@ -174,26 +61,19 @@ function CountryCard({ block, blockIndex, updateBlock, removeBlock, globalData, 
   const allUnitNames = sortByUnitOrder([...new Set(block.unitData.map(u => u.Name))]);
   const uniqueUnitNames = allUnitNames.filter(n => !NO_UPGRADE_UNITS.has(n));
   // Available tiers for selected unit in UpgradeOnly mode
-  const tiersForUnit = useMemo(() => {
-    const seen = new Set();
-    return block.unitData
-      .filter(u => u.Name === selectedItemName)
-      .map(u => {
-        const tier = parseIntSafe(u.Tier, 1);
-        const availableDay = getUnitTierUnlockDay(selectedItemName, tier);
-        return {
-          tier,
-          availableDay,
-          disabled: availableDay > currentTimelineDay,
-        };
-      })
-      .filter(entry => {
-        if (seen.has(entry.tier)) return false;
-        seen.add(entry.tier);
-        return true;
-      })
-      .sort((a, b) => a.tier - b.tier);
-  }, [block.unitData, selectedItemName, currentTimelineDay, getUnitTierUnlockDay]);
+  const tiersForUnit = block.unitData
+    .filter(u => u.Name === selectedItemName)
+    .map(u => {
+      const tier = parseIntSafe(u.Tier, 1);
+      const availableDay = getUnitTierUnlockDay(selectedItemName, tier);
+      return {
+        tier,
+        availableDay,
+        disabled: availableDay > currentTimelineDay,
+      };
+    })
+    .filter((entry, index, array) => array.findIndex(other => other.tier === entry.tier) === index)
+    .sort((a, b) => a.tier - b.tier);
 
   useEffect(() => {
     if (selectedItemName.includes('Recruiting Station')) {
@@ -213,28 +93,21 @@ function CountryCard({ block, blockIndex, updateBlock, removeBlock, globalData, 
     ? sortByOrder([...new Set(currentList.map(i => i.Name))], BUILDING_ORDER)
     : [...new Set(currentList.map(i => i.Name))];
 
-  const selectedItemTierOptions = useMemo(() => {
-    const seen = new Set();
-    return currentList
-      .filter(i => i.Name === selectedItemName)
-      .map(i => {
-        const tier = parseIntSafe(i.Tier, 1);
-        const availableDay = selectedType === 'Unit'
-          ? getUnitTierUnlockDay(selectedItemName, tier)
-          : 1;
-        return {
-          tier,
-          availableDay,
-          disabled: selectedType === 'Unit' ? availableDay > currentTimelineDay : false,
-        };
-      })
-      .filter(entry => {
-        if (seen.has(entry.tier)) return false;
-        seen.add(entry.tier);
-        return true;
-      })
-      .sort((a, b) => a.tier - b.tier);
-  }, [currentList, selectedItemName, selectedType, currentTimelineDay, getUnitTierUnlockDay]);
+  const selectedItemTierOptions = currentList
+    .filter(i => i.Name === selectedItemName)
+    .map(i => {
+      const tier = parseIntSafe(i.Tier, 1);
+      const availableDay = selectedType === 'Unit'
+        ? getUnitTierUnlockDay(selectedItemName, tier)
+        : 1;
+      return {
+        tier,
+        availableDay,
+        disabled: selectedType === 'Unit' ? availableDay > currentTimelineDay : false,
+      };
+    })
+    .filter((entry, index, array) => array.findIndex(other => other.tier === entry.tier) === index)
+    .sort((a, b) => a.tier - b.tier);
 
   useEffect(() => {
     if (selectedType === 'Unit' || selectedType === 'Building') {
@@ -305,7 +178,7 @@ function CountryCard({ block, blockIndex, updateBlock, removeBlock, globalData, 
 
   const handleCountryChange = (idx) => {
     if (idx === -1) {
-      updateBlock(block.id, { selectedCountryIdx: -1, unitData: [], cart: [], capitalsTaken: 0 });
+      updateBlock(block.id, { selectedCountryIdx: -1, unitData: [], capitalsTaken: 0 }); // Preserve cart
       return;
     }
     const cObj = mapData.parsedRows[idx];
@@ -320,12 +193,15 @@ function CountryCard({ block, blockIndex, updateBlock, removeBlock, globalData, 
               obj._type = 'Unit';
               u.push(obj);
            });
-           updateBlock(block.id, { selectedCountryIdx: idx, unitData: u, cart: [], capitalsTaken: block.capitalsTaken || 0 });
+           // Re-validate cart items against new unit data if possible?
+           // The cart preserves old unit objects, which might be from a different faction.
+           // But since we want to KEEP the build, we just don't clear the cart.
+           updateBlock(block.id, { selectedCountryIdx: idx, unitData: u, capitalsTaken: block.capitalsTaken || 0 });
            setSelectedItemName('');
-            setSelectedItemTier('');
+           setSelectedItemTier('');
         });
     } else {
-      updateBlock(block.id, { selectedCountryIdx: idx, unitData: [], cart: [], capitalsTaken: 0 });
+      updateBlock(block.id, { selectedCountryIdx: idx, unitData: [], capitalsTaken: 0 }); // Preserve cart
     }
   };
 
@@ -374,9 +250,9 @@ function CountryCard({ block, blockIndex, updateBlock, removeBlock, globalData, 
     const isInd = itemObj.Name.includes('Industry');
     const boostVal = isRc ? itemObj['Manpower Boost (%)'] : (isInd ? itemObj['Resource Boost (%)'] : null);
 
-    const newItem = { 
-       type: selectedType, 
-       obj: itemObj, 
+    const newItem = {
+       type: selectedType,
+       obj: itemObj,
        count: itemCount,
        buffTarget: isRc ? 'Manpower' : buffTarget,
        buffValue: boostVal,
@@ -863,7 +739,7 @@ function CountryCard({ block, blockIndex, updateBlock, removeBlock, globalData, 
                <div className="col" style={{flex: '0.9'}}></div>
              </div>
           )}
-          
+
           <div className="cart-list" style={{marginTop: '1rem'}}>
              {block.cart.map((c, i) => {
                 const cost = cartCostRows[i] || {
@@ -1002,9 +878,25 @@ function CountryCard({ block, blockIndex, updateBlock, removeBlock, globalData, 
                                 <div className="production-preview-grid">
                                   <span>Rate: <strong>{formatDecimal(productionPreview.unitsPerDay, 2)}/day</strong></span>
                                   <span>Time/Unit: <strong>{formatDecimal(productionPreview.hoursPerUnit, 2)}h</strong></span>
-                                  <span>Starts: <strong>D{formatWhole(productionPreview.unlockDay || 1)}</strong></span>
-                                  <span>By D{formatWhole(productionPreview.productionDayCount)} start: <strong>{formatDecimal(productionPreview.cappedUnits, 2)} / {formatDecimal(productionPreview.requestedCount, 2)}</strong></span>
-                                  <span>ETA: <strong>{formatDecimal(productionPreview.completionHours, 2)}h</strong> after start</span>
+                                  <span>Unlocks: <strong>D{formatWhole(productionPreview.unlockDay || 1)}</strong></span>
+                                  <span>Latest Start: <strong>D{formatDecimal(productionPreview.latestStartDay, 2)}</strong></span>
+                                  <span>ETA: <strong>{formatDecimal(productionPreview.completionHours, 2)}h</strong> runtime</span>
+                                </div>
+                                <div className="production-preview-greedy">
+                                  {productionPreview.missedUnits > 0 ? (
+                                    <div style={{color: 'var(--error)', display: 'flex', flexDirection: 'column', gap: '2px'}}>
+                                      <span>Not enough time/buildings to finish by D{formatWhole(productionPreview.productionDayCount)}. Missed {formatDecimal(productionPreview.missedUnits, 2)} units. (Latest Start D{formatDecimal(productionPreview.latestStartHours / 24, 2)})</span>
+                                      {productionPreview.missedRss && (
+                                        <span style={{fontSize: '0.75rem', marginTop: '2px'}}>
+                                          Shortage: 💰 {formatWhole(productionPreview.missedRss.M)} | 🧑 {formatWhole(productionPreview.missedRss.P)} | 🌾 {formatWhole(productionPreview.missedRss.F)} | ⚙️ {formatWhole(productionPreview.missedRss.S)} | ⛽ {formatWhole(productionPreview.missedRss.U)}
+                                        </span>
+                                      )}
+                                    </div>
+                                  ) : (
+                                    <span style={{color: 'var(--success)'}}>
+                                      Start producing on D{formatDecimal(productionPreview.latestStartDay, 2)} to finish exactly by D{formatWhole(productionPreview.productionDayCount)} (Greedy strategy).
+                                    </span>
+                                  )}
                                 </div>
                               </>
                             ) : (
@@ -1073,211 +965,6 @@ function CountryCard({ block, blockIndex, updateBlock, removeBlock, globalData, 
   );
 }
 
-// --- Main App ---
-function App() {
-  const [globalData, setGlobalData] = useState({ mapsList: [], buildingData: [], researchData: [] });
-  const [savedIndicator, setSavedIndicator] = useState(false);
-  const [discordExportOpen, setDiscordExportOpen] = useState(false);
-  const [discordExportData, setDiscordExportData] = useState(null);
-  const [copyNotification, setCopyNotification] = useState(false);
 
-  // Lazy-initialise from localStorage if available
-  const _saved = loadSaved();
-  const [selectedMap, setSelectedMap] = useState(_saved?.selectedMap || '');
-  const [mapData, setMapData] = useState(null);
-  const [days, setDays] = useState(_saved?.days || 1);
-  const [blocks, setBlocks] = useState(_saved?.blocks || []);
-  const [_restored, setRestored] = useState(false); // gate to avoid overwriting on first map load
-  const [newBlockId, setNewBlockId] = useState(null);
-  const countryCardRefs = React.useRef({});
 
-  useEffect(() => {
-    if (!newBlockId) return undefined;
-    const el = countryCardRefs.current[newBlockId];
-    if (el) {
-      const topOffset = el.getBoundingClientRect().top + window.scrollY - 30;
-      customSmoothScroll(topOffset, 950);
-    }
-    const t = setTimeout(() => setNewBlockId(null), 520);
-    return () => clearTimeout(t);
-  }, [blocks, newBlockId]);
-
-  // Load globals once
-  useEffect(() => {
-    Promise.all([
-      fetch('./maps_index.json').then(r => r.json()).catch(() => []),
-      fetch('./data/Building_Stats.json').then(r => r.json()).catch(() => ({})),
-      fetch('./data/Research_Stats.json').then(r => r.json()).catch(() => ({rows:[],headers:[]}))
-    ]).then(([mapsList, bJson, rJson]) => {
-      const buildingData = Object.values(bJson || {})
-        .flatMap((schema) => parseSchemaRows(schema, 'Building'));
-      const researchData = parseSchemaRows(rJson || { rows: [], headers: [] });
-
-      setGlobalData({ mapsList: mapsList || [], buildingData, researchData });
-    });
-  }, []);
-
-  useEffect(() => {
-    if (!discordExportOpen) {
-      setDiscordExportData(null);
-    }
-  }, [discordExportOpen]);
-
-  useEffect(() => {
-    if (!discordExportOpen) return undefined;
-
-    const handleKeyDown = (event) => {
-      if (event.key === 'Escape') {
-        setDiscordExportOpen(false);
-      }
-    };
-
-    // Prevent body scroll when modal is open
-    const previousOverflow = document.body.style.overflow;
-    const previousOverscrollBehavior = document.documentElement.style.overscrollBehavior;
-    document.body.style.overflow = 'hidden';
-    document.documentElement.style.overscrollBehavior = 'none';
-    window.addEventListener('keydown', handleKeyDown);
-    
-    return () => {
-      document.body.style.overflow = previousOverflow;
-      document.documentElement.style.overscrollBehavior = previousOverscrollBehavior;
-      window.removeEventListener('keydown', handleKeyDown);
-    };
-  }, [discordExportOpen]);
-
-  // Auto-save to localStorage whenever relevant state changes
-  useEffect(() => {
-    if (!selectedMap) return; // don't save empty state
-    try {
-      localStorage.setItem(LS_KEY, JSON.stringify({ selectedMap, days, blocks }));
-      setSavedIndicator(true);
-      const t = setTimeout(() => setSavedIndicator(false), 1500);
-      return () => clearTimeout(t);
-    } catch { /* storage full */ }
-  }, [selectedMap, days, blocks]);
-
-  // When map changes, fetch map data; only reset blocks if this is a NEW map selection (not a restore)
-  useEffect(() => {
-    if (selectedMap) {
-      fetch(`./maps/${selectedMap}`)
-        .then(res => res.json())
-        .then(data => {
-           setMapData(parseMapPayload(data));
-           // Only reset blocks if nothing was restored from storage
-           setRestored(prev => {
-             if (!prev) {
-              setBlocks(b => b.length > 0 ? b : [{ id: Date.now(), selectedCountryIdx: -1, capitalsTaken: 0, discordId: '', unitData: [], cart: [] }]);
-             }
-             return true;
-           });
-        });
-    } else {
-      setMapData(null);
-      setBlocks([]);
-    }
-  }, [selectedMap]);
-
-  const updateBlock = useCallback((id, newProps) => {
-    setBlocks((prevBlocks) => prevBlocks.map((block) => (block.id === id ? { ...block, ...newProps } : block)));
-  }, []);
-
-  const addBlock = () => {
-    const id = Date.now();
-    setBlocks((prevBlocks) => ([
-      ...prevBlocks,
-      { id, selectedCountryIdx: -1, capitalsTaken: 0, discordId: '', unitData: [], cart: [] },
-    ]));
-    setNewBlockId(id);
-  };
-
-  const removeBlock = useCallback((id) => {
-    setBlocks((prevBlocks) => prevBlocks.filter((block) => block.id !== id));
-  }, []);
-
-  const openDiscordExport = useCallback(() => {
-    console.log('[CowCalc] Opening Discord export...', { selectedMap, blocksCount: blocks.length, hasMapData: !!mapData });
-    try {
-      const exportData = buildDiscordPlanExport({ selectedMap, blocks, mapData });
-      if (!exportData) throw new Error("Export returned no data");
-      
-      setDiscordExportData(exportData);
-      setDiscordExportOpen(true);
-    } catch (error) {
-      console.error('[CowCalc] Discord export error:', error);
-      setDiscordExportData({
-        title: 'Export Failed',
-        warning: error.message || 'Unknown error',
-        messageLimit: 2000,
-        chunks: ['Error during generation'],
-        text: 'Error'
-      });
-      setDiscordExportOpen(true);
-    }
-  }, [selectedMap, blocks, mapData]);
-
-  const copyDiscordText = async (text) => {
-    try {
-      await navigator.clipboard.writeText(text);
-      setCopyNotification(true);
-      const t = setTimeout(() => setCopyNotification(false), 2000);
-      return () => clearTimeout(t);
-    } catch {
-      alert('Could not copy to clipboard.');
-    }
-  };
-
-  const closeDiscordExport = useCallback(() => {
-    setDiscordExportOpen(false);
-  }, []);
-
-  const feasibilityProps = useMemo(() => calculateGlobalFeasibility({
-    blocks,
-    mapData,
-    globalData,
-    days,
-  }), [blocks, mapData, globalData, days]);
-
-  return (
-    <div className="app-container">
-      <PlanEditor
-        globalData={globalData}
-        selectedMap={selectedMap}
-        setSelectedMap={setSelectedMap}
-        mapData={mapData}
-        days={days}
-        setDays={setDays}
-        blocks={blocks}
-        setBlocks={setBlocks}
-        setRestored={setRestored}
-        updateBlock={updateBlock}
-        removeBlock={removeBlock}
-        addBlock={addBlock}
-        countryCardRefs={countryCardRefs}
-        newBlockId={newBlockId}
-        savedIndicator={savedIndicator}
-        openDiscordExport={openDiscordExport}
-      />
-
-      <Sidebar {...feasibilityProps} days={days} />
-
-      <ScrollTopButton />
-
-      {copyNotification && (
-        <div className="copy-notification">
-          ✓ Copied to clipboard
-        </div>
-      )}
-
-      <MemoDiscordExportModal 
-        isOpen={discordExportOpen}
-        discordExport={discordExportData} 
-        onClose={closeDiscordExport}
-        onCopy={copyDiscordText}
-      />
-    </div>
-  );
-}
-
-export default App;
-// Trigger new PR
+export const MemoCountryCard = React.memo(CountryCard);
