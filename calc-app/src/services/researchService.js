@@ -3,7 +3,8 @@
  * Handles unit/tier unlock logic based on game day and faction
  */
 
-import { parseIntSafe, UPGRADE_PREREQUISITES } from './constants.js';
+import { UPGRADE_PREREQUISITES } from './constants.js';
+import { parseIntSafe } from './utils.js';
 
 /**
  * Get the game day when a specific unit tier is unlocked
