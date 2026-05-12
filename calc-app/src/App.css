@@ -1788,3 +1788,4 @@ html[data-theme="light"] #root {
   border-color: var(--border-input);
   color: #2c2f3a;
 }
+.production-preview-greedy { font-size: 0.8rem; margin-top: 0.5rem; }
