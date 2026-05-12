@@ -25,6 +25,29 @@ const getSessions = (userId, deviceType) => sessionStore.get(getSessionKey(userI
 const setSessions = (userId, deviceType, sessions) => sessionStore.set(getSessionKey(userId, deviceType), sessions);
 const countActiveSessions = (sessions) => sessions.filter((session) => !session.endedAt).length;
 
+// Clean up ended and inactive sessions every hour to prevent memory exhaustion
+const SESSION_TTL_MS = 24 * 60 * 60 * 1000; // 24 hours
+const CLEANUP_INTERVAL_MS = 60 * 60 * 1000; // 1 hour
+
+setInterval(() => {
+  const now = Date.now();
+  for (const [key, sessions] of sessionStore.entries()) {
+    const activeSessions = sessions.filter(session => {
+      // Remove sessions that have ended or haven't sent a heartbeat within TTL
+      const isEnded = !!session.endedAt;
+      const heartbeatTime = session.lastHeartbeatAt ? new Date(session.lastHeartbeatAt).getTime() : now;
+      const isInactive = now - heartbeatTime > SESSION_TTL_MS;
+      return !isEnded && !isInactive;
+    });
+
+    if (activeSessions.length === 0) {
+      sessionStore.delete(key);
+    } else if (activeSessions.length !== sessions.length) {
+      sessionStore.set(key, activeSessions);
+    }
+  }
+}, CLEANUP_INTERVAL_MS).unref();
+
 const parseSessionRequest = (body) => ({
   userId: String(body?.userId || '').trim(),
   deviceType: String(body?.deviceType || '').trim(),
