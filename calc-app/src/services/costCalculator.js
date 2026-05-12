@@ -27,12 +27,12 @@ import { getRequiredResearch } from './researchService.js';
  */
 function calculateBuildingProductionCost(building, buildingData, targetTier, maxHours = Infinity) {
   const cost = createCostBucket();
-  const isBuff = building.Name.includes('Industry') || building.Name.includes('Recruiting Station');
+  const isBuff = building?.Name?.includes('Industry') || building?.Name?.includes('Recruiting Station');
 
   let currentHours = 0;
   for (let tier = 1; tier <= targetTier; tier++) {
-    const tierBuilding = buildingData.find((b) =>
-      b.Name === building.Name && parseIntSafe(b.Tier, 1) === tier
+    const tierBuilding = buildingData?.find((b) =>
+      b.Name === building?.Name && parseIntSafe(b.Tier, 1) === tier
     );
 
     if (!tierBuilding) continue;
@@ -140,8 +140,8 @@ export function calculateItemCost(cartItem, options = {}) {
       }
 
       const requiredResearch = getRequiredResearch(researchData, maxTiers, faction);
-      requiredResearch.forEach((research) => {
-        addCost(research, research, factionMultiplier);
+      requiredResearch.forEach((req) => {
+        addCost(research, req, factionMultiplier);
       });
     }
 
