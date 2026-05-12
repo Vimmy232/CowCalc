@@ -221,7 +221,7 @@ export function formatCostBucket(bucket) {
  * @returns {string} Sanitized numeric value
  */
 export function sanitizeNumericInput(value) {
-  return String(value || '').replace(/\D/g, '');
+  return String(value ?? '').replace(/\D/g, '');
 }
 
 /**
