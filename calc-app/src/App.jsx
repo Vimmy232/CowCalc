@@ -198,19 +198,26 @@ function CountryCard({ block, blockIndex, updateBlock, removeBlock, globalData, 
   const allUnitNames = sortByUnitOrder([...new Set(block.unitData.map(u => u.Name))]);
   const uniqueUnitNames = allUnitNames.filter(n => !NO_UPGRADE_UNITS.has(n));
   // Available tiers for selected unit in UpgradeOnly mode
-  const tiersForUnit = block.unitData
-    .filter(u => u.Name === selectedItemName)
-    .map(u => {
-      const tier = parseIntSafe(u.Tier, 1);
-      const availableDay = getUnitTierUnlockDay(selectedItemName, tier);
-      return {
-        tier,
-        availableDay,
-        disabled: availableDay > currentTimelineDay,
-      };
-    })
-    .filter((entry, index, array) => array.findIndex(other => other.tier === entry.tier) === index)
-    .sort((a, b) => a.tier - b.tier);
+  const tiersForUnit = useMemo(() => {
+    const seen = new Set();
+    return block.unitData
+      .filter(u => u.Name === selectedItemName)
+      .map(u => {
+        const tier = parseIntSafe(u.Tier, 1);
+        const availableDay = getUnitTierUnlockDay(selectedItemName, tier);
+        return {
+          tier,
+          availableDay,
+          disabled: availableDay > currentTimelineDay,
+        };
+      })
+      .filter(entry => {
+        if (seen.has(entry.tier)) return false;
+        seen.add(entry.tier);
+        return true;
+      })
+      .sort((a, b) => a.tier - b.tier);
+  }, [block.unitData, selectedItemName, currentTimelineDay, getUnitTierUnlockDay]);
 
   useEffect(() => {
     if (selectedItemName.includes('Recruiting Station')) {
@@ -230,21 +237,28 @@ function CountryCard({ block, blockIndex, updateBlock, removeBlock, globalData, 
     ? sortByOrder([...new Set(currentList.map(i => i.Name))], BUILDING_ORDER)
     : [...new Set(currentList.map(i => i.Name))];
 
-  const selectedItemTierOptions = currentList
-    .filter(i => i.Name === selectedItemName)
-    .map(i => {
-      const tier = parseIntSafe(i.Tier, 1);
-      const availableDay = selectedType === 'Unit'
-        ? getUnitTierUnlockDay(selectedItemName, tier)
-        : 1;
-      return {
-        tier,
-        availableDay,
-        disabled: selectedType === 'Unit' ? availableDay > currentTimelineDay : false,
-      };
-    })
-    .filter((entry, index, array) => array.findIndex(other => other.tier === entry.tier) === index)
-    .sort((a, b) => a.tier - b.tier);
+  const selectedItemTierOptions = useMemo(() => {
+    const seen = new Set();
+    return currentList
+      .filter(i => i.Name === selectedItemName)
+      .map(i => {
+        const tier = parseIntSafe(i.Tier, 1);
+        const availableDay = selectedType === 'Unit'
+          ? getUnitTierUnlockDay(selectedItemName, tier)
+          : 1;
+        return {
+          tier,
+          availableDay,
+          disabled: selectedType === 'Unit' ? availableDay > currentTimelineDay : false,
+        };
+      })
+      .filter(entry => {
+        if (seen.has(entry.tier)) return false;
+        seen.add(entry.tier);
+        return true;
+      })
+      .sort((a, b) => a.tier - b.tier);
+  }, [currentList, selectedItemName, selectedType, currentTimelineDay, getUnitTierUnlockDay]);
 
   useEffect(() => {
     if (selectedType === 'Unit' || selectedType === 'Building') {
