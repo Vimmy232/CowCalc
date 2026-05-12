@@ -26,10 +26,10 @@ const setSessions = (userId, deviceType, sessions) => sessionStore.set(getSessio
 const countActiveSessions = (sessions) => sessions.filter((session) => !session.endedAt).length;
 
 const parseSessionRequest = (body) => ({
-  userId: String(body?.userId || '').trim(),
-  deviceType: String(body?.deviceType || '').trim(),
-  deviceFingerprint: String(body?.deviceFingerprint || '').trim(),
-  sessionId: String(body?.sessionId || '').trim(),
+  userId: String(body?.userId || '').trim().substring(0, 255),
+  deviceType: String(body?.deviceType || '').trim().substring(0, 50),
+  deviceFingerprint: String(body?.deviceFingerprint || '').trim().substring(0, 1024),
+  sessionId: String(body?.sessionId || '').trim().substring(0, 255),
 });
 
 const validateSessionStart = ({ userId, deviceType, deviceFingerprint }) => {
