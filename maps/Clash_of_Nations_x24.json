@@ -1,6 +1,7 @@
 {
     "map_id": "54451",
     "title": "Clash of Nations [x24]",
+    "starting_forces": { "Infantry": 18, "Armored Car": 2, "Anti Air": 0, "Anti Tank": 0 },
     "headers": [
         "PlayerID",
         "Nation",

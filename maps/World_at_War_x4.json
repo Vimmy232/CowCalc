@@ -1,6 +1,7 @@
 {
     "map_id": "13128",
     "title": "World at War [x4]",
+    "starting_forces": { "Infantry": 15, "Armored Car": 2, "Anti Air": 0, "Anti Tank": 0 },
     "headers": [
         "PlayerID",
         "Nation",
