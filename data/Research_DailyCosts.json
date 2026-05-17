@@ -1,0 +1,8622 @@
+{
+  "source": "live-runtime:hup.contentItems[511].allUnitTypes",
+  "generatedAt": "2026-05-06T17:05:48.824Z",
+  "units": {
+    "Aircraft Carrier": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 6,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 105,
+            "Steel": 53,
+            "Fuel": 0,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 10.5,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 113,
+            "Steel": 58,
+            "Fuel": 0,
+            "Money": 65
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 14.25,
+          "dailyCosts": {
+            "Food": 78,
+            "Manpower": 130,
+            "Steel": 65,
+            "Fuel": 0,
+            "Money": 75
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 80,
+            "Manpower": 148,
+            "Steel": 73,
+            "Fuel": 0,
+            "Money": 85
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 28.5,
+          "dailyCosts": {
+            "Food": 83,
+            "Manpower": 173,
+            "Steel": 85,
+            "Fuel": 0,
+            "Money": 98
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 34.5,
+          "dailyCosts": {
+            "Food": 85,
+            "Manpower": 190,
+            "Steel": 95,
+            "Fuel": 0,
+            "Money": 108
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 105,
+            "Steel": 53,
+            "Fuel": 0,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 113,
+            "Steel": 58,
+            "Fuel": 0,
+            "Money": 65
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 19,
+          "dailyCosts": {
+            "Food": 78,
+            "Manpower": 130,
+            "Steel": 65,
+            "Fuel": 0,
+            "Money": 75
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 80,
+            "Manpower": 148,
+            "Steel": 73,
+            "Fuel": 0,
+            "Money": 85
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 83,
+            "Manpower": 173,
+            "Steel": 85,
+            "Fuel": 0,
+            "Money": 98
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 24,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 85,
+            "Manpower": 190,
+            "Steel": 95,
+            "Fuel": 0,
+            "Money": 108
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 74,
+            "Steel": 37,
+            "Fuel": 0,
+            "Money": 42
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 79,
+            "Steel": 41,
+            "Fuel": 0,
+            "Money": 46
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 19,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 91,
+            "Steel": 46,
+            "Fuel": 0,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 56,
+            "Manpower": 104,
+            "Steel": 51,
+            "Fuel": 0,
+            "Money": 59
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 121,
+            "Steel": 59,
+            "Fuel": 0,
+            "Money": 69
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 59,
+            "Manpower": 133,
+            "Steel": 67,
+            "Fuel": 0,
+            "Money": 76
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 105,
+            "Steel": 53,
+            "Fuel": 0,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 113,
+            "Steel": 58,
+            "Fuel": 0,
+            "Money": 65
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 19,
+          "dailyCosts": {
+            "Food": 78,
+            "Manpower": 130,
+            "Steel": 65,
+            "Fuel": 0,
+            "Money": 75
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 80,
+            "Manpower": 148,
+            "Steel": 73,
+            "Fuel": 0,
+            "Money": 85
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 83,
+            "Manpower": 173,
+            "Steel": 85,
+            "Fuel": 0,
+            "Money": 98
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 85,
+            "Manpower": 190,
+            "Steel": 95,
+            "Fuel": 0,
+            "Money": 108
+          }
+        }
+      ]
+    },
+    "Anti Air": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 43,
+            "Steel": 30,
+            "Fuel": 0,
+            "Money": 50
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 6,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 45,
+            "Steel": 33,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 9,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 50,
+            "Steel": 35,
+            "Fuel": 0,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 13.5,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 58,
+            "Steel": 40,
+            "Fuel": 0,
+            "Money": 70
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 65,
+            "Steel": 45,
+            "Fuel": 0,
+            "Money": 78
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 73,
+            "Steel": 50,
+            "Fuel": 0,
+            "Money": 85
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 43,
+            "Steel": 30,
+            "Fuel": 0,
+            "Money": 50
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 45,
+            "Steel": 33,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 50,
+            "Steel": 35,
+            "Fuel": 0,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 58,
+            "Steel": 40,
+            "Fuel": 0,
+            "Money": 70
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 65,
+            "Steel": 45,
+            "Fuel": 0,
+            "Money": 78
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 73,
+            "Steel": 50,
+            "Fuel": 0,
+            "Money": 85
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 30,
+            "Manpower": 30,
+            "Steel": 21,
+            "Fuel": 0,
+            "Money": 35
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 31,
+            "Manpower": 31,
+            "Steel": 23,
+            "Fuel": 0,
+            "Money": 39
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 31,
+            "Manpower": 35,
+            "Steel": 25,
+            "Fuel": 0,
+            "Money": 42
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 34,
+            "Manpower": 41,
+            "Steel": 28,
+            "Fuel": 0,
+            "Money": 49
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 34,
+            "Manpower": 46,
+            "Steel": 31,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 51,
+            "Steel": 35,
+            "Fuel": 0,
+            "Money": 59
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 43,
+            "Steel": 30,
+            "Fuel": 0,
+            "Money": 50
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 45,
+            "Steel": 33,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 50,
+            "Steel": 35,
+            "Fuel": 0,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 58,
+            "Steel": 40,
+            "Fuel": 0,
+            "Money": 70
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 65,
+            "Steel": 45,
+            "Fuel": 0,
+            "Money": 78
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 73,
+            "Steel": 50,
+            "Fuel": 0,
+            "Money": 85
+          }
+        }
+      ]
+    },
+    "Anti Tank": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 40,
+            "Steel": 28,
+            "Fuel": 0,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 6,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 45,
+            "Steel": 30,
+            "Fuel": 0,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 9,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 50,
+            "Steel": 35,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 13.5,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 55,
+            "Steel": 40,
+            "Fuel": 0,
+            "Money": 73
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 63,
+            "Steel": 43,
+            "Fuel": 0,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 70,
+            "Steel": 48,
+            "Fuel": 0,
+            "Money": 90
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 40,
+            "Steel": 28,
+            "Fuel": 0,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 45,
+            "Steel": 30,
+            "Fuel": 0,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 50,
+            "Steel": 35,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 55,
+            "Steel": 40,
+            "Fuel": 0,
+            "Money": 73
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 63,
+            "Steel": 43,
+            "Fuel": 0,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 70,
+            "Steel": 48,
+            "Fuel": 0,
+            "Money": 90
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 27,
+            "Manpower": 28,
+            "Steel": 20,
+            "Fuel": 0,
+            "Money": 37
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 27,
+            "Manpower": 31,
+            "Steel": 21,
+            "Fuel": 0,
+            "Money": 41
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 28,
+            "Manpower": 35,
+            "Steel": 25,
+            "Fuel": 0,
+            "Money": 44
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 28,
+            "Manpower": 39,
+            "Steel": 28,
+            "Fuel": 0,
+            "Money": 51
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 30,
+            "Manpower": 44,
+            "Steel": 30,
+            "Fuel": 0,
+            "Money": 56
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 30,
+            "Manpower": 49,
+            "Steel": 34,
+            "Fuel": 0,
+            "Money": 63
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 40,
+            "Steel": 28,
+            "Fuel": 0,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 45,
+            "Steel": 30,
+            "Fuel": 0,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 50,
+            "Steel": 35,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 55,
+            "Steel": 40,
+            "Fuel": 0,
+            "Money": 73
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 63,
+            "Steel": 43,
+            "Fuel": 0,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 70,
+            "Steel": 48,
+            "Fuel": 0,
+            "Money": 90
+          }
+        }
+      ]
+    },
+    "Armored Car": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 88,
+            "Steel": 55,
+            "Fuel": 50,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 6,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 93,
+            "Steel": 60,
+            "Fuel": 53,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 9,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 105,
+            "Steel": 68,
+            "Fuel": 60,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 16.5,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 125,
+            "Steel": 80,
+            "Fuel": 73,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 148,
+            "Steel": 95,
+            "Fuel": 85,
+            "Money": 0
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 88,
+            "Steel": 55,
+            "Fuel": 50,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 93,
+            "Steel": 60,
+            "Fuel": 53,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 105,
+            "Steel": 68,
+            "Fuel": 60,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 125,
+            "Steel": 80,
+            "Fuel": 73,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 148,
+            "Steel": 95,
+            "Fuel": 85,
+            "Money": 0
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 37,
+            "Manpower": 62,
+            "Steel": 39,
+            "Fuel": 35,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 37,
+            "Manpower": 65,
+            "Steel": 42,
+            "Fuel": 37,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 39,
+            "Manpower": 74,
+            "Steel": 48,
+            "Fuel": 42,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 39,
+            "Manpower": 88,
+            "Steel": 56,
+            "Fuel": 51,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 41,
+            "Manpower": 104,
+            "Steel": 67,
+            "Fuel": 59,
+            "Money": 0
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 88,
+            "Steel": 55,
+            "Fuel": 50,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 93,
+            "Steel": 60,
+            "Fuel": 53,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 105,
+            "Steel": 68,
+            "Fuel": 60,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 125,
+            "Steel": 80,
+            "Fuel": 73,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 148,
+            "Steel": 95,
+            "Fuel": 85,
+            "Money": 0
+          }
+        }
+      ]
+    },
+    "Artillery": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 1.92,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 70,
+            "Steel": 38,
+            "Fuel": 0,
+            "Money": 90
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 9,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 78,
+            "Steel": 43,
+            "Fuel": 0,
+            "Money": 98
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 85,
+            "Steel": 48,
+            "Fuel": 0,
+            "Money": 110
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 16.5,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 98,
+            "Steel": 53,
+            "Fuel": 0,
+            "Money": 125
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 22.5,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 110,
+            "Steel": 60,
+            "Fuel": 0,
+            "Money": 140
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 28.5,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 120,
+            "Steel": 65,
+            "Fuel": 0,
+            "Money": 155
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 70,
+            "Steel": 38,
+            "Fuel": 0,
+            "Money": 90
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 78,
+            "Steel": 43,
+            "Fuel": 0,
+            "Money": 98
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 85,
+            "Steel": 48,
+            "Fuel": 0,
+            "Money": 110
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 98,
+            "Steel": 53,
+            "Fuel": 0,
+            "Money": 125
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 110,
+            "Steel": 60,
+            "Fuel": 0,
+            "Money": 140
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 120,
+            "Steel": 65,
+            "Fuel": 0,
+            "Money": 155
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 39,
+            "Manpower": 49,
+            "Steel": 27,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 39,
+            "Manpower": 55,
+            "Steel": 30,
+            "Fuel": 0,
+            "Money": 69
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 39,
+            "Manpower": 59,
+            "Steel": 34,
+            "Fuel": 0,
+            "Money": 77
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 41,
+            "Manpower": 69,
+            "Steel": 37,
+            "Fuel": 0,
+            "Money": 88
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 42,
+            "Manpower": 77,
+            "Steel": 42,
+            "Fuel": 0,
+            "Money": 98
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 42,
+            "Manpower": 84,
+            "Steel": 46,
+            "Fuel": 0,
+            "Money": 109
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 70,
+            "Steel": 38,
+            "Fuel": 0,
+            "Money": 90
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 78,
+            "Steel": 43,
+            "Fuel": 0,
+            "Money": 98
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 85,
+            "Steel": 48,
+            "Fuel": 0,
+            "Money": 110
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 98,
+            "Steel": 53,
+            "Fuel": 0,
+            "Money": 125
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 110,
+            "Steel": 60,
+            "Fuel": 0,
+            "Money": 140
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 120,
+            "Steel": 65,
+            "Fuel": 0,
+            "Money": 155
+          }
+        }
+      ]
+    },
+    "Atomic Bomb": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 285,
+            "Manpower": 1053,
+            "Steel": 175,
+            "Fuel": 468,
+            "Money": 175
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 46.5,
+          "dailyCosts": {
+            "Food": 290,
+            "Manpower": 1103,
+            "Steel": 185,
+            "Fuel": 490,
+            "Money": 185
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 51,
+          "dailyCosts": {
+            "Food": 293,
+            "Manpower": 1155,
+            "Steel": 193,
+            "Fuel": 513,
+            "Money": 193
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 56,
+          "dailyCosts": {
+            "Food": 285,
+            "Manpower": 1053,
+            "Steel": 175,
+            "Fuel": 468,
+            "Money": 175
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 62,
+          "dailyCosts": {
+            "Food": 290,
+            "Manpower": 1103,
+            "Steel": 185,
+            "Fuel": 490,
+            "Money": 185
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 68,
+          "dailyCosts": {
+            "Food": 293,
+            "Manpower": 1155,
+            "Steel": 193,
+            "Fuel": 513,
+            "Money": 193
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 56,
+          "dailyCosts": {
+            "Food": 200,
+            "Manpower": 737,
+            "Steel": 122,
+            "Fuel": 328,
+            "Money": 122
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 62,
+          "dailyCosts": {
+            "Food": 203,
+            "Manpower": 772,
+            "Steel": 130,
+            "Fuel": 343,
+            "Money": 130
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 68,
+          "dailyCosts": {
+            "Food": 205,
+            "Manpower": 809,
+            "Steel": 135,
+            "Fuel": 359,
+            "Money": 135
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 56,
+          "dailyCosts": {
+            "Food": 285,
+            "Manpower": 1053,
+            "Steel": 175,
+            "Fuel": 468,
+            "Money": 175
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 62,
+          "dailyCosts": {
+            "Food": 290,
+            "Manpower": 1103,
+            "Steel": 185,
+            "Fuel": 490,
+            "Money": 185
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 24,
+          "minBuildTimeHours": 68,
+          "dailyCosts": {
+            "Food": 293,
+            "Manpower": 1155,
+            "Steel": 193,
+            "Fuel": 513,
+            "Money": 193
+          }
+        }
+      ]
+    },
+    "Attack Bomber": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 10.5,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 73,
+            "Steel": 0,
+            "Fuel": 78,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 17.25,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 83,
+            "Steel": 0,
+            "Fuel": 90,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 21.75,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 95,
+            "Steel": 0,
+            "Fuel": 103,
+            "Money": 68
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 30.75,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 113,
+            "Steel": 0,
+            "Fuel": 123,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 36.75,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 123,
+            "Steel": 0,
+            "Fuel": 135,
+            "Money": 90
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 73,
+            "Steel": 0,
+            "Fuel": 78,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 23,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 83,
+            "Steel": 0,
+            "Fuel": 90,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 29,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 95,
+            "Steel": 0,
+            "Fuel": 103,
+            "Money": 68
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 41,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 113,
+            "Steel": 0,
+            "Fuel": 123,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 49,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 123,
+            "Steel": 0,
+            "Fuel": 135,
+            "Money": 90
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 37,
+            "Manpower": 51,
+            "Steel": 0,
+            "Fuel": 55,
+            "Money": 37
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 23,
+          "dailyCosts": {
+            "Food": 39,
+            "Manpower": 58,
+            "Steel": 0,
+            "Fuel": 63,
+            "Money": 42
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 29,
+          "dailyCosts": {
+            "Food": 39,
+            "Manpower": 67,
+            "Steel": 0,
+            "Fuel": 72,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 41,
+          "dailyCosts": {
+            "Food": 41,
+            "Manpower": 79,
+            "Steel": 0,
+            "Fuel": 86,
+            "Money": 56
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 49,
+          "dailyCosts": {
+            "Food": 42,
+            "Manpower": 86,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 63
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 73,
+            "Steel": 0,
+            "Fuel": 78,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 23,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 83,
+            "Steel": 0,
+            "Fuel": 90,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 29,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 95,
+            "Steel": 0,
+            "Fuel": 103,
+            "Money": 68
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 41,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 113,
+            "Steel": 0,
+            "Fuel": 123,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 49,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 123,
+            "Steel": 0,
+            "Fuel": 135,
+            "Money": 90
+          }
+        }
+      ]
+    },
+    "Battleship": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 8.25,
+          "dailyCosts": {
+            "Food": 83,
+            "Manpower": 90,
+            "Steel": 135,
+            "Fuel": 0,
+            "Money": 45
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 13.5,
+          "dailyCosts": {
+            "Food": 83,
+            "Manpower": 98,
+            "Steel": 145,
+            "Fuel": 0,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 17.25,
+          "dailyCosts": {
+            "Food": 85,
+            "Manpower": 113,
+            "Steel": 168,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 22.5,
+          "dailyCosts": {
+            "Food": 88,
+            "Manpower": 125,
+            "Steel": 190,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 31.5,
+          "dailyCosts": {
+            "Food": 90,
+            "Manpower": 148,
+            "Steel": 223,
+            "Fuel": 0,
+            "Money": 75
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 37.5,
+          "dailyCosts": {
+            "Food": 93,
+            "Manpower": 163,
+            "Steel": 243,
+            "Fuel": 0,
+            "Money": 80
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 11,
+          "dailyCosts": {
+            "Food": 83,
+            "Manpower": 90,
+            "Steel": 135,
+            "Fuel": 0,
+            "Money": 45
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 83,
+            "Manpower": 98,
+            "Steel": 145,
+            "Fuel": 0,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 23,
+          "dailyCosts": {
+            "Food": 85,
+            "Manpower": 113,
+            "Steel": 168,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 88,
+            "Manpower": 125,
+            "Steel": 190,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 90,
+            "Manpower": 148,
+            "Steel": 223,
+            "Fuel": 0,
+            "Money": 75
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 93,
+            "Manpower": 163,
+            "Steel": 243,
+            "Fuel": 0,
+            "Money": 80
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 11,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 63,
+            "Steel": 95,
+            "Fuel": 0,
+            "Money": 31
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 69,
+            "Steel": 102,
+            "Fuel": 0,
+            "Money": 34
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 23,
+          "dailyCosts": {
+            "Food": 59,
+            "Manpower": 79,
+            "Steel": 118,
+            "Fuel": 0,
+            "Money": 39
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 62,
+            "Manpower": 88,
+            "Steel": 133,
+            "Fuel": 0,
+            "Money": 44
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 104,
+            "Steel": 156,
+            "Fuel": 0,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 24,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 114,
+            "Steel": 170,
+            "Fuel": 0,
+            "Money": 56
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 11,
+          "dailyCosts": {
+            "Food": 83,
+            "Manpower": 90,
+            "Steel": 135,
+            "Fuel": 0,
+            "Money": 45
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 83,
+            "Manpower": 98,
+            "Steel": 145,
+            "Fuel": 0,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 23,
+          "dailyCosts": {
+            "Food": 85,
+            "Manpower": 113,
+            "Steel": 168,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 88,
+            "Manpower": 125,
+            "Steel": 190,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 90,
+            "Manpower": 148,
+            "Steel": 223,
+            "Fuel": 0,
+            "Money": 75
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 93,
+            "Manpower": 163,
+            "Steel": 243,
+            "Fuel": 0,
+            "Money": 80
+          }
+        }
+      ]
+    },
+    "Commandos": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 108,
+            "Steel": 0,
+            "Fuel": 50,
+            "Money": 108
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 123,
+            "Steel": 0,
+            "Fuel": 58,
+            "Money": 123
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 138,
+            "Steel": 0,
+            "Fuel": 65,
+            "Money": 138
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34.5,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 160,
+            "Steel": 0,
+            "Fuel": 75,
+            "Money": 160
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 108,
+            "Steel": 0,
+            "Fuel": 50,
+            "Money": 108
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 123,
+            "Steel": 0,
+            "Fuel": 58,
+            "Money": 123
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 138,
+            "Steel": 0,
+            "Fuel": 65,
+            "Money": 138
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 160,
+            "Steel": 0,
+            "Fuel": 75,
+            "Money": 160
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 37,
+            "Manpower": 76,
+            "Steel": 0,
+            "Fuel": 35,
+            "Money": 76
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 39,
+            "Manpower": 86,
+            "Steel": 0,
+            "Fuel": 41,
+            "Money": 86
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 39,
+            "Manpower": 97,
+            "Steel": 0,
+            "Fuel": 46,
+            "Money": 97
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 41,
+            "Manpower": 112,
+            "Steel": 0,
+            "Fuel": 53,
+            "Money": 112
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 108,
+            "Steel": 0,
+            "Fuel": 50,
+            "Money": 108
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 123,
+            "Steel": 0,
+            "Fuel": 58,
+            "Money": 123
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 138,
+            "Steel": 0,
+            "Fuel": 65,
+            "Money": 138
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 160,
+            "Steel": 0,
+            "Fuel": 75,
+            "Money": 160
+          }
+        }
+      ]
+    },
+    "Cruiser": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 1.92,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 68,
+            "Steel": 55,
+            "Fuel": 0,
+            "Money": 95
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 9,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 73,
+            "Steel": 58,
+            "Fuel": 0,
+            "Money": 103
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 83,
+            "Steel": 65,
+            "Fuel": 0,
+            "Money": 115
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 16.5,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 93,
+            "Steel": 75,
+            "Fuel": 0,
+            "Money": 130
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 110,
+            "Steel": 88,
+            "Fuel": 0,
+            "Money": 153
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 31.5,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 120,
+            "Steel": 98,
+            "Fuel": 0,
+            "Money": 170
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 68,
+            "Steel": 55,
+            "Fuel": 0,
+            "Money": 95
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 73,
+            "Steel": 58,
+            "Fuel": 0,
+            "Money": 103
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 83,
+            "Steel": 65,
+            "Fuel": 0,
+            "Money": 115
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 93,
+            "Steel": 75,
+            "Fuel": 0,
+            "Money": 130
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 110,
+            "Steel": 88,
+            "Fuel": 0,
+            "Money": 153
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 120,
+            "Steel": 98,
+            "Fuel": 0,
+            "Money": 170
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 48,
+            "Steel": 39,
+            "Fuel": 0,
+            "Money": 67
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 51,
+            "Steel": 41,
+            "Fuel": 0,
+            "Money": 72
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 37,
+            "Manpower": 58,
+            "Steel": 46,
+            "Fuel": 0,
+            "Money": 81
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 37,
+            "Manpower": 65,
+            "Steel": 53,
+            "Fuel": 0,
+            "Money": 91
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 39,
+            "Manpower": 77,
+            "Steel": 62,
+            "Fuel": 0,
+            "Money": 107
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 41,
+            "Manpower": 84,
+            "Steel": 69,
+            "Fuel": 0,
+            "Money": 119
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 68,
+            "Steel": 55,
+            "Fuel": 0,
+            "Money": 95
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 73,
+            "Steel": 58,
+            "Fuel": 0,
+            "Money": 103
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 83,
+            "Steel": 65,
+            "Fuel": 0,
+            "Money": 115
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 93,
+            "Steel": 75,
+            "Fuel": 0,
+            "Money": 130
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 110,
+            "Steel": 88,
+            "Fuel": 0,
+            "Money": 153
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 120,
+            "Steel": 98,
+            "Fuel": 0,
+            "Money": 170
+          }
+        }
+      ]
+    },
+    "Destroyer": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.42,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 65,
+            "Steel": 60,
+            "Fuel": 0,
+            "Money": 50
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 6,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 73,
+            "Steel": 65,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 9,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 80,
+            "Steel": 73,
+            "Fuel": 0,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 13.5,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 90,
+            "Steel": 83,
+            "Fuel": 0,
+            "Money": 68
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 22.5,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 108,
+            "Steel": 98,
+            "Fuel": 0,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 28.5,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 118,
+            "Steel": 110,
+            "Fuel": 0,
+            "Money": 90
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.5,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 65,
+            "Steel": 60,
+            "Fuel": 0,
+            "Money": 50
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 73,
+            "Steel": 65,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 80,
+            "Steel": 73,
+            "Fuel": 0,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 90,
+            "Steel": 83,
+            "Fuel": 0,
+            "Money": 68
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 108,
+            "Steel": 98,
+            "Fuel": 0,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 118,
+            "Steel": 110,
+            "Fuel": 0,
+            "Money": 90
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.5,
+          "dailyCosts": {
+            "Food": 28,
+            "Manpower": 46,
+            "Steel": 42,
+            "Fuel": 0,
+            "Money": 35
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 30,
+            "Manpower": 51,
+            "Steel": 46,
+            "Fuel": 0,
+            "Money": 39
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 30,
+            "Manpower": 56,
+            "Steel": 51,
+            "Fuel": 0,
+            "Money": 42
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 30,
+            "Manpower": 63,
+            "Steel": 58,
+            "Fuel": 0,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 31,
+            "Manpower": 76,
+            "Steel": 69,
+            "Fuel": 0,
+            "Money": 56
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 34,
+            "Manpower": 83,
+            "Steel": 77,
+            "Fuel": 0,
+            "Money": 63
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.5,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 65,
+            "Steel": 60,
+            "Fuel": 0,
+            "Money": 50
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 73,
+            "Steel": 65,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 80,
+            "Steel": 73,
+            "Fuel": 0,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 90,
+            "Steel": 83,
+            "Fuel": 0,
+            "Money": 68
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 108,
+            "Steel": 98,
+            "Fuel": 0,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 118,
+            "Steel": 110,
+            "Fuel": 0,
+            "Money": 90
+          }
+        }
+      ]
+    },
+    "Flying Bomb": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 6,
+          "dailyCosts": {
+            "Food": 10,
+            "Manpower": 38,
+            "Steel": 38,
+            "Fuel": 20,
+            "Money": 0
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 10,
+            "Manpower": 38,
+            "Steel": 38,
+            "Fuel": 20,
+            "Money": 0
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 7,
+            "Manpower": 27,
+            "Steel": 27,
+            "Fuel": 14,
+            "Money": 0
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 10,
+            "Manpower": 38,
+            "Steel": 38,
+            "Fuel": 20,
+            "Money": 0
+          }
+        }
+      ]
+    },
+    "Heavy Tank": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 130,
+            "Steel": 105,
+            "Fuel": 153,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 148,
+            "Steel": 120,
+            "Fuel": 173,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 28.5,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 173,
+            "Steel": 143,
+            "Fuel": 205,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 37.5,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 200,
+            "Steel": 165,
+            "Fuel": 238,
+            "Money": 0
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 130,
+            "Steel": 105,
+            "Fuel": 153,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 148,
+            "Steel": 120,
+            "Fuel": 173,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 173,
+            "Steel": 143,
+            "Fuel": 205,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 200,
+            "Steel": 165,
+            "Fuel": 238,
+            "Money": 0
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 46,
+            "Manpower": 91,
+            "Steel": 74,
+            "Fuel": 107,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 104,
+            "Steel": 84,
+            "Fuel": 121,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 49,
+            "Manpower": 121,
+            "Steel": 100,
+            "Fuel": 144,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 51,
+            "Manpower": 140,
+            "Steel": 115,
+            "Fuel": 167,
+            "Money": 0
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 130,
+            "Steel": 105,
+            "Fuel": 153,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 148,
+            "Steel": 120,
+            "Fuel": 173,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 173,
+            "Steel": 143,
+            "Fuel": 205,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 24,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 200,
+            "Steel": 165,
+            "Fuel": 238,
+            "Money": 0
+          }
+        }
+      ]
+    },
+    "Infantry": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 40,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 3.75,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 40,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 6,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 43,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 7.5,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 45,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 11.25,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 50,
+            "Steel": 15,
+            "Fuel": 0,
+            "Money": 70
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 16.5,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 58,
+            "Steel": 18,
+            "Fuel": 0,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 22.5,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 63,
+            "Steel": 20,
+            "Fuel": 0,
+            "Money": 88
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 40,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 5,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 40,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 43,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 10,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 45,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 50,
+            "Steel": 15,
+            "Fuel": 0,
+            "Money": 70
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 58,
+            "Steel": 18,
+            "Fuel": 0,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 63,
+            "Steel": 20,
+            "Fuel": 0,
+            "Money": 88
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 34,
+            "Manpower": 28,
+            "Steel": 9,
+            "Fuel": 0,
+            "Money": 39
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 5,
+          "dailyCosts": {
+            "Food": 34,
+            "Manpower": 28,
+            "Steel": 9,
+            "Fuel": 0,
+            "Money": 41
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 34,
+            "Manpower": 30,
+            "Steel": 9,
+            "Fuel": 0,
+            "Money": 42
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 10,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 31,
+            "Steel": 9,
+            "Fuel": 0,
+            "Money": 44
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 35,
+            "Steel": 11,
+            "Fuel": 0,
+            "Money": 49
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 37,
+            "Manpower": 41,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 56
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 37,
+            "Manpower": 44,
+            "Steel": 14,
+            "Fuel": 0,
+            "Money": 62
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 40,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 5,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 40,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 43,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 10,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 45,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 50,
+            "Steel": 15,
+            "Fuel": 0,
+            "Money": 70
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 58,
+            "Steel": 18,
+            "Fuel": 0,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 63,
+            "Steel": 20,
+            "Fuel": 0,
+            "Money": 88
+          }
+        }
+      ]
+    },
+    "Interceptor": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 1.92,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 75,
+            "Steel": 0,
+            "Fuel": 48,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 6,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 50,
+            "Money": 50
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 10.5,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 85,
+            "Steel": 0,
+            "Fuel": 55,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 14.25,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 98,
+            "Steel": 0,
+            "Fuel": 63,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 110,
+            "Steel": 0,
+            "Fuel": 70,
+            "Money": 70
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 123,
+            "Steel": 0,
+            "Fuel": 80,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 31.5,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 135,
+            "Steel": 0,
+            "Fuel": 88,
+            "Money": 88
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 75,
+            "Steel": 0,
+            "Fuel": 48,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 50,
+            "Money": 50
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 85,
+            "Steel": 0,
+            "Fuel": 55,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 19,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 98,
+            "Steel": 0,
+            "Fuel": 63,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 110,
+            "Steel": 0,
+            "Fuel": 70,
+            "Money": 70
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 123,
+            "Steel": 0,
+            "Fuel": 80,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 135,
+            "Steel": 0,
+            "Fuel": 88,
+            "Money": 88
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 28,
+            "Manpower": 53,
+            "Steel": 0,
+            "Fuel": 34,
+            "Money": 34
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 28,
+            "Manpower": 56,
+            "Steel": 0,
+            "Fuel": 35,
+            "Money": 35
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 28,
+            "Manpower": 59,
+            "Steel": 0,
+            "Fuel": 39,
+            "Money": 39
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 19,
+          "dailyCosts": {
+            "Food": 30,
+            "Manpower": 69,
+            "Steel": 0,
+            "Fuel": 44,
+            "Money": 44
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 30,
+            "Manpower": 77,
+            "Steel": 0,
+            "Fuel": 49,
+            "Money": 49
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 31,
+            "Manpower": 86,
+            "Steel": 0,
+            "Fuel": 56,
+            "Money": 56
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 31,
+            "Manpower": 95,
+            "Steel": 0,
+            "Fuel": 62,
+            "Money": 62
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 75,
+            "Steel": 0,
+            "Fuel": 48,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 50,
+            "Money": 50
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 85,
+            "Steel": 0,
+            "Fuel": 55,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 19,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 98,
+            "Steel": 0,
+            "Fuel": 63,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 110,
+            "Steel": 0,
+            "Fuel": 70,
+            "Money": 70
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 123,
+            "Steel": 0,
+            "Fuel": 80,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 135,
+            "Steel": 0,
+            "Fuel": 88,
+            "Money": 88
+          }
+        }
+      ]
+    },
+    "Light Tank": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 1.92,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 55,
+            "Steel": 75,
+            "Fuel": 68,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 9,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 60,
+            "Steel": 80,
+            "Fuel": 73,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 68,
+            "Steel": 90,
+            "Fuel": 83,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 80,
+            "Steel": 108,
+            "Fuel": 100,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 28.5,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 95,
+            "Steel": 128,
+            "Fuel": 115,
+            "Money": 0
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 55,
+            "Steel": 75,
+            "Fuel": 68,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 60,
+            "Steel": 80,
+            "Fuel": 73,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 68,
+            "Steel": 90,
+            "Fuel": 83,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 80,
+            "Steel": 108,
+            "Fuel": 100,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 95,
+            "Steel": 128,
+            "Fuel": 115,
+            "Money": 0
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 31,
+            "Manpower": 39,
+            "Steel": 53,
+            "Fuel": 48,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 34,
+            "Manpower": 42,
+            "Steel": 56,
+            "Fuel": 51,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 34,
+            "Manpower": 48,
+            "Steel": 63,
+            "Fuel": 58,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 56,
+            "Steel": 76,
+            "Fuel": 70,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 37,
+            "Manpower": 67,
+            "Steel": 90,
+            "Fuel": 81,
+            "Money": 0
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 55,
+            "Steel": 75,
+            "Fuel": 68,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 60,
+            "Steel": 80,
+            "Fuel": 73,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 68,
+            "Steel": 90,
+            "Fuel": 83,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 80,
+            "Steel": 108,
+            "Fuel": 100,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 95,
+            "Steel": 128,
+            "Fuel": 115,
+            "Money": 0
+          }
+        }
+      ]
+    },
+    "Mechanized Infantry": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 10.5,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 80,
+            "Steel": 73,
+            "Fuel": 65,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 14.25,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 93,
+            "Steel": 85,
+            "Fuel": 75,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 105,
+            "Steel": 95,
+            "Fuel": 85,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 118,
+            "Steel": 108,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 31.5,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 130,
+            "Steel": 118,
+            "Fuel": 105,
+            "Money": 0
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 80,
+            "Steel": 73,
+            "Fuel": 65,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 19,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 93,
+            "Steel": 85,
+            "Fuel": 75,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 105,
+            "Steel": 95,
+            "Fuel": 85,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 118,
+            "Steel": 108,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 130,
+            "Steel": 118,
+            "Fuel": 105,
+            "Money": 0
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 44,
+            "Manpower": 56,
+            "Steel": 51,
+            "Fuel": 46,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 19,
+          "dailyCosts": {
+            "Food": 46,
+            "Manpower": 65,
+            "Steel": 59,
+            "Fuel": 53,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 46,
+            "Manpower": 74,
+            "Steel": 67,
+            "Fuel": 59,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 83,
+            "Steel": 76,
+            "Fuel": 67,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 49,
+            "Manpower": 91,
+            "Steel": 83,
+            "Fuel": 74,
+            "Money": 0
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 80,
+            "Steel": 73,
+            "Fuel": 65,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 19,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 93,
+            "Steel": 85,
+            "Fuel": 75,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 105,
+            "Steel": 95,
+            "Fuel": 85,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 118,
+            "Steel": 108,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 130,
+            "Steel": 118,
+            "Fuel": 105,
+            "Money": 0
+          }
+        }
+      ]
+    },
+    "Medium Tank": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 88,
+            "Steel": 88,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 98,
+            "Steel": 98,
+            "Fuel": 105,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 110,
+            "Steel": 110,
+            "Fuel": 120,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 123,
+            "Steel": 123,
+            "Fuel": 135,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 31.5,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 138,
+            "Steel": 138,
+            "Fuel": 150,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 24,
+          "minBuildTimeHours": 37.5,
+          "dailyCosts": {
+            "Food": 78,
+            "Manpower": 150,
+            "Steel": 150,
+            "Fuel": 165,
+            "Money": 0
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 88,
+            "Steel": 88,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 98,
+            "Steel": 98,
+            "Fuel": 105,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 110,
+            "Steel": 110,
+            "Fuel": 120,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 123,
+            "Steel": 123,
+            "Fuel": 135,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 138,
+            "Steel": 138,
+            "Fuel": 150,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 78,
+            "Manpower": 150,
+            "Steel": 150,
+            "Fuel": 165,
+            "Money": 0
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 62,
+            "Steel": 62,
+            "Fuel": 67,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 49,
+            "Manpower": 69,
+            "Steel": 69,
+            "Fuel": 74,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 51,
+            "Manpower": 77,
+            "Steel": 77,
+            "Fuel": 84,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 51,
+            "Manpower": 86,
+            "Steel": 86,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 97,
+            "Steel": 97,
+            "Fuel": 105,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 105,
+            "Steel": 105,
+            "Fuel": 115,
+            "Money": 0
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 88,
+            "Steel": 88,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 98,
+            "Steel": 98,
+            "Fuel": 105,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 110,
+            "Steel": 110,
+            "Fuel": 120,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 123,
+            "Steel": 123,
+            "Fuel": 135,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 138,
+            "Steel": 138,
+            "Fuel": 150,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 78,
+            "Manpower": 150,
+            "Steel": 150,
+            "Fuel": 165,
+            "Money": 0
+          }
+        }
+      ]
+    },
+    "Militia": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 30,
+            "Steel": 10,
+            "Fuel": 0,
+            "Money": 25
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 6,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 33,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 28
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 11.25,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 38,
+            "Steel": 15,
+            "Fuel": 0,
+            "Money": 33
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 45,
+            "Steel": 18,
+            "Fuel": 0,
+            "Money": 38
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 30,
+            "Steel": 10,
+            "Fuel": 0,
+            "Money": 25
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 33,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 28
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 38,
+            "Steel": 15,
+            "Fuel": 0,
+            "Money": 33
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 45,
+            "Steel": 18,
+            "Fuel": 0,
+            "Money": 38
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 28,
+            "Manpower": 21,
+            "Steel": 7,
+            "Fuel": 0,
+            "Money": 18
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 30,
+            "Manpower": 23,
+            "Steel": 9,
+            "Fuel": 0,
+            "Money": 20
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 30,
+            "Manpower": 27,
+            "Steel": 11,
+            "Fuel": 0,
+            "Money": 23
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 31,
+            "Manpower": 31,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 27
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.08,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 30,
+            "Steel": 10,
+            "Fuel": 0,
+            "Money": 25
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 33,
+            "Steel": 13,
+            "Fuel": 0,
+            "Money": 28
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 43,
+            "Manpower": 38,
+            "Steel": 15,
+            "Fuel": 0,
+            "Money": 33
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 45,
+            "Manpower": 45,
+            "Steel": 18,
+            "Fuel": 0,
+            "Money": 38
+          }
+        }
+      ]
+    },
+    "Motorized Infantry": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 6,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 63,
+            "Steel": 0,
+            "Fuel": 75,
+            "Money": 50
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 9,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 65,
+            "Steel": 0,
+            "Fuel": 78,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 73,
+            "Steel": 0,
+            "Fuel": 88,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 16.5,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 83,
+            "Steel": 0,
+            "Fuel": 100,
+            "Money": 65
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 22.5,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 93,
+            "Steel": 0,
+            "Fuel": 110,
+            "Money": 75
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 28.5,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 103,
+            "Steel": 0,
+            "Fuel": 123,
+            "Money": 83
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 63,
+            "Steel": 0,
+            "Fuel": 75,
+            "Money": 50
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 65,
+            "Steel": 0,
+            "Fuel": 78,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 73,
+            "Steel": 0,
+            "Fuel": 88,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 83,
+            "Steel": 0,
+            "Fuel": 100,
+            "Money": 65
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 93,
+            "Steel": 0,
+            "Fuel": 110,
+            "Money": 75
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 103,
+            "Steel": 0,
+            "Fuel": 123,
+            "Money": 83
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 41,
+            "Manpower": 44,
+            "Steel": 0,
+            "Fuel": 53,
+            "Money": 35
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 41,
+            "Manpower": 46,
+            "Steel": 0,
+            "Fuel": 55,
+            "Money": 37
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 41,
+            "Manpower": 51,
+            "Steel": 0,
+            "Fuel": 62,
+            "Money": 41
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 42,
+            "Manpower": 58,
+            "Steel": 0,
+            "Fuel": 70,
+            "Money": 46
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 44,
+            "Manpower": 65,
+            "Steel": 0,
+            "Fuel": 77,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 44,
+            "Manpower": 72,
+            "Steel": 0,
+            "Fuel": 86,
+            "Money": 58
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 63,
+            "Steel": 0,
+            "Fuel": 75,
+            "Money": 50
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 65,
+            "Steel": 0,
+            "Fuel": 78,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 73,
+            "Steel": 0,
+            "Fuel": 88,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 83,
+            "Steel": 0,
+            "Fuel": 100,
+            "Money": 65
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 93,
+            "Steel": 0,
+            "Fuel": 110,
+            "Money": 75
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 103,
+            "Steel": 0,
+            "Fuel": 123,
+            "Money": 83
+          }
+        }
+      ]
+    },
+    "Naval Bomber": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.42,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 55,
+            "Steel": 0,
+            "Fuel": 65,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 3.75,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 58,
+            "Steel": 0,
+            "Fuel": 68,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 7.5,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 60,
+            "Steel": 0,
+            "Fuel": 73,
+            "Money": 68
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 11.25,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 70,
+            "Steel": 0,
+            "Fuel": 83,
+            "Money": 78
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 16.5,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 88
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 22.5,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 88,
+            "Steel": 0,
+            "Fuel": 105,
+            "Money": 98
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 28.5,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 98,
+            "Steel": 0,
+            "Fuel": 115,
+            "Money": 108
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.5,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 55,
+            "Steel": 0,
+            "Fuel": 65,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 5,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 58,
+            "Steel": 0,
+            "Fuel": 68,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 10,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 60,
+            "Steel": 0,
+            "Fuel": 73,
+            "Money": 68
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 70,
+            "Steel": 0,
+            "Fuel": 83,
+            "Money": 78
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 88
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 88,
+            "Steel": 0,
+            "Fuel": 105,
+            "Money": 98
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 98,
+            "Steel": 0,
+            "Fuel": 115,
+            "Money": 108
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.5,
+          "dailyCosts": {
+            "Food": 25,
+            "Manpower": 39,
+            "Steel": 0,
+            "Fuel": 46,
+            "Money": 42
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 5,
+          "dailyCosts": {
+            "Food": 25,
+            "Manpower": 41,
+            "Steel": 0,
+            "Fuel": 48,
+            "Money": 44
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 10,
+          "dailyCosts": {
+            "Food": 25,
+            "Manpower": 42,
+            "Steel": 0,
+            "Fuel": 51,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 27,
+            "Manpower": 49,
+            "Steel": 0,
+            "Fuel": 58,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 27,
+            "Manpower": 56,
+            "Steel": 0,
+            "Fuel": 67,
+            "Money": 62
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 28,
+            "Manpower": 62,
+            "Steel": 0,
+            "Fuel": 74,
+            "Money": 69
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 28,
+            "Manpower": 69,
+            "Steel": 0,
+            "Fuel": 81,
+            "Money": 76
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.5,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 55,
+            "Steel": 0,
+            "Fuel": 65,
+            "Money": 60
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 5,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 58,
+            "Steel": 0,
+            "Fuel": 68,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 10,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 60,
+            "Steel": 0,
+            "Fuel": 73,
+            "Money": 68
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 70,
+            "Steel": 0,
+            "Fuel": 83,
+            "Money": 78
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 88
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 88,
+            "Steel": 0,
+            "Fuel": 105,
+            "Money": 98
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 98,
+            "Steel": 0,
+            "Fuel": 115,
+            "Money": 108
+          }
+        }
+      ]
+    },
+    "Nuclear Bomber": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 285,
+            "Manpower": 1053,
+            "Steel": 175,
+            "Fuel": 468,
+            "Money": 175
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 46.5,
+          "dailyCosts": {
+            "Food": 290,
+            "Manpower": 1103,
+            "Steel": 185,
+            "Fuel": 490,
+            "Money": 185
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 51,
+          "dailyCosts": {
+            "Food": 293,
+            "Manpower": 1155,
+            "Steel": 193,
+            "Fuel": 513,
+            "Money": 193
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 56,
+          "dailyCosts": {
+            "Food": 285,
+            "Manpower": 1053,
+            "Steel": 175,
+            "Fuel": 468,
+            "Money": 175
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 62,
+          "dailyCosts": {
+            "Food": 290,
+            "Manpower": 1103,
+            "Steel": 185,
+            "Fuel": 490,
+            "Money": 185
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 68,
+          "dailyCosts": {
+            "Food": 293,
+            "Manpower": 1155,
+            "Steel": 193,
+            "Fuel": 513,
+            "Money": 193
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 56,
+          "dailyCosts": {
+            "Food": 200,
+            "Manpower": 737,
+            "Steel": 122,
+            "Fuel": 328,
+            "Money": 122
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 62,
+          "dailyCosts": {
+            "Food": 203,
+            "Manpower": 772,
+            "Steel": 130,
+            "Fuel": 343,
+            "Money": 130
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 68,
+          "dailyCosts": {
+            "Food": 205,
+            "Manpower": 809,
+            "Steel": 135,
+            "Fuel": 359,
+            "Money": 135
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 56,
+          "dailyCosts": {
+            "Food": 285,
+            "Manpower": 1053,
+            "Steel": 175,
+            "Fuel": 468,
+            "Money": 175
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 62,
+          "dailyCosts": {
+            "Food": 290,
+            "Manpower": 1103,
+            "Steel": 185,
+            "Fuel": 490,
+            "Money": 185
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 24,
+          "minBuildTimeHours": 68,
+          "dailyCosts": {
+            "Food": 293,
+            "Manpower": 1155,
+            "Steel": 193,
+            "Fuel": 513,
+            "Money": 193
+          }
+        }
+      ]
+    },
+    "Nuclear Rocket": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 51,
+          "dailyCosts": {
+            "Food": 228,
+            "Manpower": 1215,
+            "Steel": 338,
+            "Fuel": 405,
+            "Money": 338
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 68,
+          "dailyCosts": {
+            "Food": 228,
+            "Manpower": 1215,
+            "Steel": 338,
+            "Fuel": 405,
+            "Money": 338
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 68,
+          "dailyCosts": {
+            "Food": 160,
+            "Manpower": 851,
+            "Steel": 237,
+            "Fuel": 284,
+            "Money": 237
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 24,
+          "minBuildTimeHours": 68,
+          "dailyCosts": {
+            "Food": 228,
+            "Manpower": 1215,
+            "Steel": 338,
+            "Fuel": 405,
+            "Money": 338
+          }
+        }
+      ]
+    },
+    "Paratroopers": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 128,
+            "Steel": 0,
+            "Fuel": 60,
+            "Money": 68
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 145,
+            "Steel": 0,
+            "Fuel": 68,
+            "Money": 78
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 163,
+            "Steel": 0,
+            "Fuel": 75,
+            "Money": 88
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 34.5,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 190,
+            "Steel": 0,
+            "Fuel": 88,
+            "Money": 100
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 128,
+            "Steel": 0,
+            "Fuel": 60,
+            "Money": 68
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 145,
+            "Steel": 0,
+            "Fuel": 68,
+            "Money": 78
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 163,
+            "Steel": 0,
+            "Fuel": 75,
+            "Money": 88
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 190,
+            "Steel": 0,
+            "Fuel": 88,
+            "Money": 100
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 90,
+            "Steel": 0,
+            "Fuel": 42,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 49,
+            "Manpower": 102,
+            "Steel": 0,
+            "Fuel": 48,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 51,
+            "Manpower": 114,
+            "Steel": 0,
+            "Fuel": 53,
+            "Money": 62
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 133,
+            "Steel": 0,
+            "Fuel": 62,
+            "Money": 70
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 128,
+            "Steel": 0,
+            "Fuel": 60,
+            "Money": 68
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 145,
+            "Steel": 0,
+            "Fuel": 68,
+            "Money": 78
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 163,
+            "Steel": 0,
+            "Fuel": 75,
+            "Money": 88
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 190,
+            "Steel": 0,
+            "Fuel": 88,
+            "Money": 100
+          }
+        }
+      ]
+    },
+    "Railroad Gun": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 133,
+            "Manpower": 203,
+            "Steel": 170,
+            "Fuel": 93,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 143,
+            "Manpower": 278,
+            "Steel": 235,
+            "Fuel": 128,
+            "Money": 0
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 24,
+          "dailyCosts": {
+            "Food": 133,
+            "Manpower": 203,
+            "Steel": 170,
+            "Fuel": 93,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 40,
+          "dailyCosts": {
+            "Food": 143,
+            "Manpower": 278,
+            "Steel": 235,
+            "Fuel": 128,
+            "Money": 0
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 24,
+          "dailyCosts": {
+            "Food": 93,
+            "Manpower": 142,
+            "Steel": 119,
+            "Fuel": 65,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 40,
+          "dailyCosts": {
+            "Food": 100,
+            "Manpower": 195,
+            "Steel": 165,
+            "Fuel": 90,
+            "Money": 0
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 24,
+          "dailyCosts": {
+            "Food": 133,
+            "Manpower": 203,
+            "Steel": 170,
+            "Fuel": 93,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 40,
+          "dailyCosts": {
+            "Food": 143,
+            "Manpower": 278,
+            "Steel": 235,
+            "Fuel": 128,
+            "Money": 0
+          }
+        }
+      ]
+    },
+    "Rocket": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 23,
+            "Manpower": 110,
+            "Steel": 40,
+            "Fuel": 53,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 23,
+            "Manpower": 125,
+            "Steel": 45,
+            "Fuel": 60,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 25,
+            "Manpower": 140,
+            "Steel": 53,
+            "Fuel": 68,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 31.5,
+          "dailyCosts": {
+            "Food": 25,
+            "Manpower": 155,
+            "Steel": 58,
+            "Fuel": 75,
+            "Money": 0
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 23,
+            "Manpower": 110,
+            "Steel": 40,
+            "Fuel": 53,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 23,
+            "Manpower": 125,
+            "Steel": 45,
+            "Fuel": 60,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 25,
+            "Manpower": 140,
+            "Steel": 53,
+            "Fuel": 68,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 25,
+            "Manpower": 155,
+            "Steel": 58,
+            "Fuel": 75,
+            "Money": 0
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 16,
+            "Manpower": 77,
+            "Steel": 28,
+            "Fuel": 37,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 16,
+            "Manpower": 88,
+            "Steel": 31,
+            "Fuel": 42,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 18,
+            "Manpower": 98,
+            "Steel": 37,
+            "Fuel": 48,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 18,
+            "Manpower": 109,
+            "Steel": 41,
+            "Fuel": 53,
+            "Money": 0
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 23,
+            "Manpower": 110,
+            "Steel": 40,
+            "Fuel": 53,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 23,
+            "Manpower": 125,
+            "Steel": 45,
+            "Fuel": 60,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 25,
+            "Manpower": 140,
+            "Steel": 53,
+            "Fuel": 68,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 25,
+            "Manpower": 155,
+            "Steel": 58,
+            "Fuel": 75,
+            "Money": 0
+          }
+        }
+      ]
+    },
+    "Rocket Artillery": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 12.75,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 68,
+            "Steel": 88,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 80,
+            "Steel": 103,
+            "Fuel": 0,
+            "Money": 70
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 100,
+            "Steel": 130,
+            "Fuel": 0,
+            "Money": 90
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 17,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 68,
+            "Steel": 88,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 80,
+            "Steel": 103,
+            "Fuel": 0,
+            "Money": 70
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 40,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 100,
+            "Steel": 130,
+            "Fuel": 0,
+            "Money": 90
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 17,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 48,
+            "Steel": 62,
+            "Fuel": 0,
+            "Money": 44
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 56,
+            "Steel": 72,
+            "Fuel": 0,
+            "Money": 49
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 40,
+          "dailyCosts": {
+            "Food": 37,
+            "Manpower": 70,
+            "Steel": 91,
+            "Fuel": 0,
+            "Money": 63
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 17,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 68,
+            "Steel": 88,
+            "Fuel": 0,
+            "Money": 63
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 80,
+            "Steel": 103,
+            "Fuel": 0,
+            "Money": 70
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 40,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 100,
+            "Steel": 130,
+            "Fuel": 0,
+            "Money": 90
+          }
+        }
+      ]
+    },
+    "Rocket Fighter": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 68,
+            "Steel": 0,
+            "Fuel": 100,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 85,
+            "Steel": 0,
+            "Fuel": 130,
+            "Money": 70
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 68,
+            "Steel": 0,
+            "Fuel": 100,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 85,
+            "Steel": 0,
+            "Fuel": 130,
+            "Money": 70
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 27,
+            "Manpower": 48,
+            "Steel": 0,
+            "Fuel": 70,
+            "Money": 39
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 28,
+            "Manpower": 59,
+            "Steel": 0,
+            "Fuel": 91,
+            "Money": 49
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 68,
+            "Steel": 0,
+            "Fuel": 100,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 85,
+            "Steel": 0,
+            "Fuel": 130,
+            "Money": 70
+          }
+        }
+      ]
+    },
+    "SP Anti Air": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 10.5,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 70,
+            "Steel": 0,
+            "Fuel": 83,
+            "Money": 45
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 14.25,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 93,
+            "Steel": 0,
+            "Fuel": 108,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 103,
+            "Steel": 0,
+            "Fuel": 120,
+            "Money": 65
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 31.5,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 113,
+            "Steel": 0,
+            "Fuel": 133,
+            "Money": 73
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 70,
+            "Steel": 0,
+            "Fuel": 83,
+            "Money": 45
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 19,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 93,
+            "Steel": 0,
+            "Fuel": 108,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 103,
+            "Steel": 0,
+            "Fuel": 120,
+            "Money": 65
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 113,
+            "Steel": 0,
+            "Fuel": 133,
+            "Money": 73
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 49,
+            "Steel": 0,
+            "Fuel": 58,
+            "Money": 31
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 19,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 56,
+            "Steel": 0,
+            "Fuel": 67,
+            "Money": 37
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 37,
+            "Manpower": 65,
+            "Steel": 0,
+            "Fuel": 76,
+            "Money": 41
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 37,
+            "Manpower": 72,
+            "Steel": 0,
+            "Fuel": 84,
+            "Money": 46
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 39,
+            "Manpower": 79,
+            "Steel": 0,
+            "Fuel": 93,
+            "Money": 51
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 14,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 70,
+            "Steel": 0,
+            "Fuel": 83,
+            "Money": 45
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 19,
+          "dailyCosts": {
+            "Food": 50,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 93,
+            "Steel": 0,
+            "Fuel": 108,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 103,
+            "Steel": 0,
+            "Fuel": 120,
+            "Money": 65
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 113,
+            "Steel": 0,
+            "Fuel": 133,
+            "Money": 73
+          }
+        }
+      ]
+    },
+    "SP Artillery": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 13.5,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 110,
+            "Steel": 90,
+            "Fuel": 83,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 17.25,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 125,
+            "Steel": 105,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 22.5,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 143,
+            "Steel": 118,
+            "Fuel": 108,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 28.5,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 158,
+            "Steel": 133,
+            "Fuel": 118,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 34.5,
+          "dailyCosts": {
+            "Food": 78,
+            "Manpower": 175,
+            "Steel": 145,
+            "Fuel": 130,
+            "Money": 0
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 110,
+            "Steel": 90,
+            "Fuel": 83,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 23,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 125,
+            "Steel": 105,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 143,
+            "Steel": 118,
+            "Fuel": 108,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 158,
+            "Steel": 133,
+            "Fuel": 118,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 78,
+            "Manpower": 175,
+            "Steel": 145,
+            "Fuel": 130,
+            "Money": 0
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 49,
+            "Manpower": 77,
+            "Steel": 63,
+            "Fuel": 58,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 23,
+          "dailyCosts": {
+            "Food": 51,
+            "Manpower": 88,
+            "Steel": 74,
+            "Fuel": 67,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 51,
+            "Manpower": 100,
+            "Steel": 83,
+            "Fuel": 76,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 111,
+            "Steel": 93,
+            "Fuel": 83,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 122,
+            "Steel": 102,
+            "Fuel": 91,
+            "Money": 0
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 110,
+            "Steel": 90,
+            "Fuel": 83,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 23,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 125,
+            "Steel": 105,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 143,
+            "Steel": 118,
+            "Fuel": 108,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 158,
+            "Steel": 133,
+            "Fuel": 118,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 78,
+            "Manpower": 175,
+            "Steel": 145,
+            "Fuel": 130,
+            "Money": 0
+          }
+        }
+      ]
+    },
+    "SP Rocket Artillery": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 78,
+            "Manpower": 95,
+            "Steel": 95,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 80,
+            "Manpower": 123,
+            "Steel": 123,
+            "Fuel": 123,
+            "Money": 0
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 78,
+            "Manpower": 95,
+            "Steel": 95,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 40,
+          "dailyCosts": {
+            "Food": 80,
+            "Manpower": 123,
+            "Steel": 123,
+            "Fuel": 123,
+            "Money": 0
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 67,
+            "Steel": 67,
+            "Fuel": 67,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 40,
+          "dailyCosts": {
+            "Food": 56,
+            "Manpower": 86,
+            "Steel": 86,
+            "Fuel": 86,
+            "Money": 0
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 78,
+            "Manpower": 95,
+            "Steel": 95,
+            "Fuel": 95,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 40,
+          "dailyCosts": {
+            "Food": 80,
+            "Manpower": 123,
+            "Steel": 123,
+            "Fuel": 123,
+            "Money": 0
+          }
+        }
+      ]
+    },
+    "Strategic Bomber": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 8.25,
+          "dailyCosts": {
+            "Food": 98,
+            "Manpower": 90,
+            "Steel": 0,
+            "Fuel": 80,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 13.5,
+          "dailyCosts": {
+            "Food": 100,
+            "Manpower": 98,
+            "Steel": 0,
+            "Fuel": 88,
+            "Money": 88
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 100,
+            "Manpower": 105,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 95
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 105,
+            "Manpower": 120,
+            "Steel": 0,
+            "Fuel": 108,
+            "Money": 108
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 108,
+            "Manpower": 133,
+            "Steel": 0,
+            "Fuel": 120,
+            "Money": 120
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 31.5,
+          "dailyCosts": {
+            "Food": 110,
+            "Manpower": 148,
+            "Steel": 0,
+            "Fuel": 133,
+            "Money": 133
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 37.5,
+          "dailyCosts": {
+            "Food": 113,
+            "Manpower": 163,
+            "Steel": 0,
+            "Fuel": 145,
+            "Money": 145
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 11,
+          "dailyCosts": {
+            "Food": 98,
+            "Manpower": 90,
+            "Steel": 0,
+            "Fuel": 80,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 100,
+            "Manpower": 98,
+            "Steel": 0,
+            "Fuel": 88,
+            "Money": 88
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 100,
+            "Manpower": 105,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 95
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 105,
+            "Manpower": 120,
+            "Steel": 0,
+            "Fuel": 108,
+            "Money": 108
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 108,
+            "Manpower": 133,
+            "Steel": 0,
+            "Fuel": 120,
+            "Money": 120
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 110,
+            "Manpower": 148,
+            "Steel": 0,
+            "Fuel": 133,
+            "Money": 133
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 113,
+            "Manpower": 163,
+            "Steel": 0,
+            "Fuel": 145,
+            "Money": 145
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 11,
+          "dailyCosts": {
+            "Food": 69,
+            "Manpower": 63,
+            "Steel": 0,
+            "Fuel": 56,
+            "Money": 56
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 69,
+            "Steel": 0,
+            "Fuel": 62,
+            "Money": 62
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 74,
+            "Steel": 0,
+            "Fuel": 67,
+            "Money": 67
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 74,
+            "Manpower": 84,
+            "Steel": 0,
+            "Fuel": 76,
+            "Money": 76
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 76,
+            "Manpower": 93,
+            "Steel": 0,
+            "Fuel": 84,
+            "Money": 84
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 77,
+            "Manpower": 104,
+            "Steel": 0,
+            "Fuel": 93,
+            "Money": 93
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 79,
+            "Manpower": 114,
+            "Steel": 0,
+            "Fuel": 102,
+            "Money": 102
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 11,
+          "dailyCosts": {
+            "Food": 98,
+            "Manpower": 90,
+            "Steel": 0,
+            "Fuel": 80,
+            "Money": 80
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 100,
+            "Manpower": 98,
+            "Steel": 0,
+            "Fuel": 88,
+            "Money": 88
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 100,
+            "Manpower": 105,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 95
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 105,
+            "Manpower": 120,
+            "Steel": 0,
+            "Fuel": 108,
+            "Money": 108
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 108,
+            "Manpower": 133,
+            "Steel": 0,
+            "Fuel": 120,
+            "Money": 120
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 110,
+            "Manpower": 148,
+            "Steel": 0,
+            "Fuel": 133,
+            "Money": 133
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 113,
+            "Manpower": 163,
+            "Steel": 0,
+            "Fuel": 145,
+            "Money": 145
+          }
+        }
+      ]
+    },
+    "Submarine": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 1.92,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 48,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 9,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 85,
+            "Steel": 0,
+            "Fuel": 53,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 95,
+            "Steel": 0,
+            "Fuel": 58,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 16.5,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 110,
+            "Steel": 0,
+            "Fuel": 65,
+            "Money": 65
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 128,
+            "Steel": 0,
+            "Fuel": 78,
+            "Money": 78
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 31.5,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 143,
+            "Steel": 0,
+            "Fuel": 85,
+            "Money": 85
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 48,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 85,
+            "Steel": 0,
+            "Fuel": 53,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 95,
+            "Steel": 0,
+            "Fuel": 58,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 110,
+            "Steel": 0,
+            "Fuel": 65,
+            "Money": 65
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 128,
+            "Steel": 0,
+            "Fuel": 78,
+            "Money": 78
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 143,
+            "Steel": 0,
+            "Fuel": 85,
+            "Money": 85
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 25,
+            "Manpower": 56,
+            "Steel": 0,
+            "Fuel": 34,
+            "Money": 34
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 25,
+            "Manpower": 59,
+            "Steel": 0,
+            "Fuel": 37,
+            "Money": 37
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 25,
+            "Manpower": 67,
+            "Steel": 0,
+            "Fuel": 41,
+            "Money": 41
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 27,
+            "Manpower": 77,
+            "Steel": 0,
+            "Fuel": 46,
+            "Money": 46
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 27,
+            "Manpower": 90,
+            "Steel": 0,
+            "Fuel": 55,
+            "Money": 55
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 28,
+            "Manpower": 100,
+            "Steel": 0,
+            "Fuel": 59,
+            "Money": 59
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 2.5,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 48,
+            "Money": 48
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 85,
+            "Steel": 0,
+            "Fuel": 53,
+            "Money": 53
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 35,
+            "Manpower": 95,
+            "Steel": 0,
+            "Fuel": 58,
+            "Money": 58
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 110,
+            "Steel": 0,
+            "Fuel": 65,
+            "Money": 65
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 38,
+            "Manpower": 128,
+            "Steel": 0,
+            "Fuel": 78,
+            "Money": 78
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 40,
+            "Manpower": 143,
+            "Steel": 0,
+            "Fuel": 85,
+            "Money": 85
+          }
+        }
+      ]
+    },
+    "Tactical Bomber": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 8.25,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 65,
+            "Money": 105
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 13.5,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 88,
+            "Steel": 0,
+            "Fuel": 70,
+            "Money": 113
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 15,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 93,
+            "Steel": 0,
+            "Fuel": 75,
+            "Money": 120
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 19.5,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 105,
+            "Steel": 0,
+            "Fuel": 85,
+            "Money": 138
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 25.5,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 118,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 155
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 31.5,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 130,
+            "Steel": 0,
+            "Fuel": 105,
+            "Money": 170
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 37.5,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 145,
+            "Steel": 0,
+            "Fuel": 115,
+            "Money": 188
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 11,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 65,
+            "Money": 105
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 88,
+            "Steel": 0,
+            "Fuel": 70,
+            "Money": 113
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 93,
+            "Steel": 0,
+            "Fuel": 75,
+            "Money": 120
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 105,
+            "Steel": 0,
+            "Fuel": 85,
+            "Money": 138
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 118,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 155
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 130,
+            "Steel": 0,
+            "Fuel": 105,
+            "Money": 170
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 145,
+            "Steel": 0,
+            "Fuel": 115,
+            "Money": 188
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 11,
+          "dailyCosts": {
+            "Food": 46,
+            "Manpower": 56,
+            "Steel": 0,
+            "Fuel": 46,
+            "Money": 74
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 46,
+            "Manpower": 62,
+            "Steel": 0,
+            "Fuel": 49,
+            "Money": 79
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 48,
+            "Manpower": 65,
+            "Steel": 0,
+            "Fuel": 53,
+            "Money": 84
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 49,
+            "Manpower": 74,
+            "Steel": 0,
+            "Fuel": 59,
+            "Money": 97
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 49,
+            "Manpower": 83,
+            "Steel": 0,
+            "Fuel": 67,
+            "Money": 109
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 51,
+            "Manpower": 91,
+            "Steel": 0,
+            "Fuel": 74,
+            "Money": 119
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 53,
+            "Manpower": 102,
+            "Steel": 0,
+            "Fuel": 81,
+            "Money": 132
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 11,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 80,
+            "Steel": 0,
+            "Fuel": 65,
+            "Money": 105
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 18,
+          "dailyCosts": {
+            "Food": 65,
+            "Manpower": 88,
+            "Steel": 0,
+            "Fuel": 70,
+            "Money": 113
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 20,
+          "dailyCosts": {
+            "Food": 68,
+            "Manpower": 93,
+            "Steel": 0,
+            "Fuel": 75,
+            "Money": 120
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 26,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 105,
+            "Steel": 0,
+            "Fuel": 85,
+            "Money": 138
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 34,
+          "dailyCosts": {
+            "Food": 70,
+            "Manpower": 118,
+            "Steel": 0,
+            "Fuel": 95,
+            "Money": 155
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 42,
+          "dailyCosts": {
+            "Food": 73,
+            "Manpower": 130,
+            "Steel": 0,
+            "Fuel": 105,
+            "Money": 170
+          }
+        },
+        {
+          "tier": 7,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 50,
+          "dailyCosts": {
+            "Food": 75,
+            "Manpower": 145,
+            "Steel": 0,
+            "Fuel": 115,
+            "Money": 188
+          }
+        }
+      ]
+    },
+    "Tank Destroyer": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 9,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 103,
+            "Steel": 95,
+            "Fuel": 55,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 115,
+            "Steel": 105,
+            "Fuel": 63,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 16.5,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 130,
+            "Steel": 120,
+            "Fuel": 70,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 22.5,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 148,
+            "Steel": 135,
+            "Fuel": 80,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 28.5,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 163,
+            "Steel": 150,
+            "Fuel": 88,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 34.5,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 178,
+            "Steel": 165,
+            "Fuel": 95,
+            "Money": 0
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 103,
+            "Steel": 95,
+            "Fuel": 55,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 115,
+            "Steel": 105,
+            "Fuel": 63,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 10,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 130,
+            "Steel": 120,
+            "Fuel": 70,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 14,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 148,
+            "Steel": 135,
+            "Fuel": 80,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 18,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 163,
+            "Steel": 150,
+            "Fuel": 88,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 22,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 178,
+            "Steel": 165,
+            "Fuel": 95,
+            "Money": 0
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 2,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 39,
+            "Manpower": 72,
+            "Steel": 67,
+            "Fuel": 39,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 41,
+            "Manpower": 81,
+            "Steel": 74,
+            "Fuel": 44,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 41,
+            "Manpower": 91,
+            "Steel": 84,
+            "Fuel": 49,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 42,
+            "Manpower": 104,
+            "Steel": 95,
+            "Fuel": 56,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 42,
+            "Manpower": 114,
+            "Steel": 105,
+            "Fuel": 62,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 44,
+            "Manpower": 125,
+            "Steel": 115,
+            "Fuel": 67,
+            "Money": 0
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 4,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 55,
+            "Manpower": 103,
+            "Steel": 95,
+            "Fuel": 55,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 8,
+          "minBuildTimeHours": 16,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 115,
+            "Steel": 105,
+            "Fuel": 63,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 58,
+            "Manpower": 130,
+            "Steel": 120,
+            "Fuel": 70,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 16,
+          "minBuildTimeHours": 30,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 148,
+            "Steel": 135,
+            "Fuel": 80,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 5,
+          "dayAvailable": 20,
+          "minBuildTimeHours": 38,
+          "dailyCosts": {
+            "Food": 60,
+            "Manpower": 163,
+            "Steel": 150,
+            "Fuel": 88,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 6,
+          "dayAvailable": 24,
+          "minBuildTimeHours": 46,
+          "dailyCosts": {
+            "Food": 63,
+            "Manpower": 178,
+            "Steel": 165,
+            "Fuel": 95,
+            "Money": 0
+          }
+        }
+      ]
+    },
+    "Transport Ship": {
+      "Ally": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.42,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 6,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 9,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 16.5,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        }
+      ],
+      "Axis": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.5,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        }
+      ],
+      "Commintern": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.5,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        }
+      ],
+      "Pan-Asian": [
+        {
+          "tier": 1,
+          "dayAvailable": 1,
+          "minBuildTimeHours": 0.5,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 2,
+          "dayAvailable": 3,
+          "minBuildTimeHours": 8,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 3,
+          "dayAvailable": 6,
+          "minBuildTimeHours": 12,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        },
+        {
+          "tier": 4,
+          "dayAvailable": 12,
+          "minBuildTimeHours": 22,
+          "dailyCosts": {
+            "Food": 0,
+            "Manpower": 0,
+            "Steel": 0,
+            "Fuel": 0,
+            "Money": 0
+          }
+        }
+      ]
+    }
+  }
+}
